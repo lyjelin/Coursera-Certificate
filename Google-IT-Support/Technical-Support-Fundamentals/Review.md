@@ -1,10 +1,10 @@
 Jul 25 2021
 > 
-- Technical support fundamentals
-- Computer networking
-- Operating systems
-- Sys admin & infrastructure services
-- IT security
+- **Technical support fundamentals**
+- The Bits and Bytes of Computer Networking
+- Operating Systems and You: Becoming a Power User
+- System Administration and IT Infrastructure Services
+- IT Security: Defense against the digital dark arts
 
 ## Technical support fundamentals 
 

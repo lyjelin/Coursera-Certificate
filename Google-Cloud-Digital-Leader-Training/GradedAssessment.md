@@ -33,4 +33,42 @@
 - [ ] 75 
 - [ ] 100 
 
+### Quiz 2 Digital Transformation with Google Cloud
+
+1. What factors have a direct impact on a team’s ability to innovate? Select the two correct answers.
+- [ ] Job satisfacttion
+- [ ] Tools and technology
+- [ ] Ability to delegate tasks to cross functional teams
+- [x] Ability o try new things without fear of failure or judgement
+- [x] Team structure
+
+2. Infrastructure modernization is foundational to an organization's digital transformation. It is a common term used to describe what process? Select the correct answer.
+- [x] Leveraging hidden value from legacy systems and applications with cloud technologies
+- [ ] Replacing legacy hardware and systems and consolidating them on-premises
+- [ ] Updating productivity software and implementing cloud collaboration
+- [ ] Updating productivity software and implementing new governance practices
+
+3. Customers now expect instant access to services anytime, anywhere. What do businesses need to prioritize to meet these changing needs? Select the correct answer.
+- [x] Launching new applications quickly
+- [ ] Localizing existing applications
+- [ ] Updating hardware systematically
+- [ ] Streamlining existing hardware
+
+4. Organizations have traditionally used retrospective data to gain business insights. By using cloud technology, in what new way can businesses leverage data? Select the correct answer.
+- [x] Businesses can gain real-time insights
+- [ ] Businesses can unlock retrospective insights
+- [ ] Businesses can now evaluate corporate data
+- [ ] Businesses can now analyze user data
+
+5. In the cloud, the recommended practice for security is called a ‘shared responsibility security model'. What does this mean? Select the two correct answers.
+- [x] The business is responsible for access to data and applications.
+- [ ] The business is responsible for the physical infrastructure. 
+- [ ] The cloud provider is responsible for access to information and applications.
+- [ ] The cloud provider and the business are both responsible for the physical infrastructure.
+- [x] The cloud provider is responsible for the physical infrastructure. 
+
+
+
+
+
 

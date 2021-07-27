@@ -67,8 +67,39 @@
 - [ ] The cloud provider and the business are both responsible for the physical infrastructure.
 - [x] **The cloud provider is responsible for the physical infrastructure.** 
 
+### Quiz 3 Scaling the innovation mindset
+
+1. Talent, Environment, and Empowerment are three focus areas that Google has identified as foundational to organizational transformation. What are the other three focus areas? Select the correct answer.
+- [ ] Structure, Tactics, Creativity
+- [ ] Management, Strategy, Creativity
+- [x] **Structure, Strategy, Innovation**
+- [ ] Management, Tactics, Innovation
+
+2. Which three business principles does Google recommend to ensure transformational outcomes? Select the correct answer.
+- [ ] Bias toward action, think 10X, launch and iterate
+- [ ] Think 10X, perfect first, focus on the user
+- [x] **Focus on the user, think 10X, launch and iterate**
+- [ ] Focus on the user, think 10%, and freedom to innovate
 
 
+3. According to Google’s culture of innovation business principles, what does “Think 10X” mean? Select the correct answer
+- [x] **Fundamentally rethink business problems and solutions by a factor of 10.**
+- [ ] Reserve 10 percent of all company resources or budget for innovation.
+- [ ] Explore solutions that would yield 10 percent improvements.
+- [ ] Make 10 changes that will positively impact the customer experience.
+
+
+4. To help you narrow down the scope of your user’s expectations, which focus areas should you consider? Select the correct answer.
+- [x] **Access, Engagement, Customization, Communication**
+- [ ] Integrity, Communication, Consistency, Engagement
+- [ ] Access, Engagement, Communication, Reliability
+- [ ] Communication, Price, Availability, Accessibility
+
+5. Timothy owns and operates an organic food delivery service. Timothy must first define his company’s mission. Which of the following mission statements best focuses on the WHY and not the HOW, providing clear direction? Select the correct answer.
+- [ ] Deliver seasonal produce reliably
+- [x] **Connect farmers and consumers through fresh produce**
+- [ ] Increase delivery fleets using the Internet of Things (IoT)
+- [ ] Increase produce sales monthly
 
 
 

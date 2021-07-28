@@ -377,3 +377,39 @@
 - [ ] "Restricted responsibility"
 - [x] **"Least privilege"**
 
+#### Quiz 3 Monitoring Cloud IT Services and Operations
+
+1. What is a service level objective (SLO)? Select the correct answer.
+- [x] **The goal for your cloud service performance level.**
+- [ ] The amount of unreliability you are willing to tolerate.
+- [ ] An indicator of how well your service is doing at any moment in time.
+- [ ] A continuous measure of your cloud's availability.
+
+2. _____________ refers to breaking down silos and closing gaps between developer and operations teams? Select the correct answer.
+- [x] **DevOps**
+- [ ] Site reliability engineering
+- [ ] Developer engineering
+- [ ] EngOps
+
+3. The tools included in Google Cloud’s operations suite fall into what two major categories? Select two correct answers.
+- [x] **Operations-focused tools**
+- [x] **Application performance management tools**
+- [ ] Data monitoring tools
+- [ ] Hardware performance management tools
+- [ ] Site reliability engineering tools
+
+4. Why is the expectation for 100% service availability misleading? Select the correct answer.
+- [ ] Because users are impacted if there’s less than 100% service availability
+- [ ] Because a business will inevitably experience talent attrition
+- [ ] Because systems will inevitably overheat over time
+- [x] **Because service maintenance is inevitable and requires downtime** 
+
+5. Which of the following are Google Cloud operations-focused tools? Select the two correct answers.
+- [ ] Cloud Profiler
+- [ ] Cloud Trace
+- [x] **Cloud Monitoring**
+- [ ] Cloud Debugger
+- [x] **Cloud Logging**
+
+
+

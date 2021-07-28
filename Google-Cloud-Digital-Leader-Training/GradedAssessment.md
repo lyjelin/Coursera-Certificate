@@ -278,3 +278,39 @@
 - [ ] It prevents infrastructure failures and downtime.
 - [x] **It increases application release velocity and reliability.**
 
+#### Quiz 3 The Value of APIs
+
+1. Why do legacy systems struggle to meet modern consumer expectations? Select the correct answer.
+- [x] **They scale slowly.**
+- [ ] They ineffectively process batch data.
+- [ ] They only serve real-time data.
+- [ ] They rapidly surpass physical capacity
+
+2. What is the function of APIs? Select the correct answer.
+- [ ] They enable rapid autoscaling of data.
+- [x] **They enable integration between systems.**
+- [ ] They provide real-time analytics.
+- [ ] They offer hybrid data storage.
+
+3. How can businesses use APIs to unlock value from their legacy systems? Select the correct answer.
+- [ ] By re-architecting their legacy systems.
+- [x] **By gaining access to data stored in legacy systems.**
+- [ ] By analyzing data from new applications.
+- [ ] By monitoring cloud resource usage of new applications. 
+
+4. Michelle wants to manage her team's APIs and provide security policies for identity verification, authentication, and access control. What Google Cloud solution should she choose? Select the correct answer.
+- [ ] BigQuery
+- [ ] Google Kubernetes Engine
+- [ ] Cloud Identity
+- [x] **Apigee**
+
+5. What is a critical outcome of API management? Select the correct answer.
+- [x] **Measuring and tracking business performance.**
+- [ ] Updating and repairing outdated business components.
+- [ ] Digitizing and modernizing siloed business data.
+- [ ] Distributing and creating regular new business features.
+
+
+
+
+

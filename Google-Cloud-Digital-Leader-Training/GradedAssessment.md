@@ -310,6 +310,42 @@
 - [ ] Digitizing and modernizing siloed business data.
 - [ ] Distributing and creating regular new business features.
 
+## Week 4. Understanding Google Cloud Security and Operations 
+
+#### Quiz 1 Financial Governance in the Cloud
+
+1. Google Cloud's tools offer four key benefits for managing cloud costs. What are they? Select the correct answer.
+- [ ] Measurability, scalability, accountability, intelligent recommendations.
+- [ ] Scalability, visibility, control, affordability.
+- [ ] Usability, accountability, control, measurability.
+- [x] **Visibility, accountability, control, intelligent recommendations.**
+
+2. What primary factors contribute to the complexity of calculating the total cost of ownership (TCO) when migrating to the cloud? Select the two correct answers.
+- [ ] Product or service features (i.e. the ability to export or visualize data directly in a tool)
+- [ ] Government regulations (i.e. location of data storage per 3rd part regulations)
+- [x] **Cloud architecture (i.e. private, hybrid, and multi-cloud architecture)**
+- [x] **Qualified personnel (i.e. Financial controller with expertise in cloud)**
+
+3. Julia is worried that some of her team members will accidentally overspend on Google Cloud. How would creating a custom dashboard help address her concern? Select the correct answer.
+- [ ] It would centralize their spending on cloud resources.
+- [ ] It would streamline her budget allocation.
+- [x] **It would give her (and her teammates) greater visibility into costs.**
+- [ ] It would limit the number of people who could spin up resources.
+
+4. Fraser has noticed that, in the past few months, several departments have been consistently exceeding their IT budgets. He needs to recommend solutions to control spending for each department. How would sharing cost views with these departments help him achieve his goal? Select the correct answer.
+- [ ] It would encourage collaboration between developers.
+- [ ] It would simplify assigning permissions for resources.
+- [ ] It would reduce duplication of cloud resources.
+- [x] **It would promote a culture of accountability**
+
+5. How do cost management operations change when a company starts using a service-based cloud architecture? Select the correct answer.
+- [ ] IT costs become the responsibility of the cloud provider.
+- [X] **Budgeting needs to be assessed on a daily, monthly, or weekly basis.**
+- [ ] Budget planning needs to incorporate increased capital expenditure.
+- [ ] IT costs become less variable and are easier to measure.
+
+
+
 
 
 

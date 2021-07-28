@@ -172,5 +172,48 @@
 - [ ] She can use it to containerize important metrics
 - [ ] She can use it to commercialize important metrics for customers
 
+### Quiz 3 Innovation with Machine Learning
+
+1. Machine learning is a subset of which body of knowledge? Select the correct answer.
+- [ ] Virtual reality
+- [ ] Augmented reality
+- [ ] Automated intelligence
+- [x] **Artificial intelligence**
+
+2. One characteristic of high quality, bug-free data is that it has coverage. What are the other two qualities? Select the two correct answers.
+- [x] **Cleanliness**
+- [ ] Structure
+- [ ] Simplicity
+- [ ] Clarity
+- [x] **Completeness**
+
+3. Olivia wants to use a machine learning (ML) model to categorize product images from social media and use that information to make predictions about future products. Her team includes experienced developers, but no specialized data scientists or ML experts. Which Google Cloud solution can they leverage to do this? Select the correct answer.
+- [ ] Notebook samples from Google Cloud's AI Hub
+- [ ] Tensor processing units (TPUs) for running TensorFlow
+- [ ] AI Platform Training (formerly known as Machine Learning Engine)
+- [x] **Google’s APIs on Google Cloud's AI Hub**
+
+4. The finance team just posted an open role for a Financial Manager. Jessica, the recruiter, wants to use a machine learning (ML) model to predict when the new position would be filled. Why is this use case not suitable for ML? Select the correct answer.
+- [ ] Jessica would need access to sensitive employee data to train a custom ML model.
+- [ ] The problem statement is too vague and wouldn’t benefit the overall company.
+- [x] **This is an infrequent decision for a specific role and department.** 
+- [ ] Once the prediction is made, the ML model is no longer useful.
+
+5. What are two common business problems that machine learning solves? Select the two correct answers.
+- [ ] Leveraging underutilised employee talent
+- [ ] Identifying computer differentiation
+- [ ] Restructuring inefficient internal processes
+- [x] **Creating personalized customer experiences**
+- [x] **Automating processes**
+
+6. Which of the following describes data completeness? Select the correct answer. 
+- [ ] The problem scope or knowledge domain that the data covers
+- [ ] Anything that can prevent the ML model from accurately predicting the correct outcome
+- [ ] A collection of 10 or more datasets about a domain to replace human knowledge
+- [x] **The availability of sufficient data about the world to replace human knowledge**
+
+
+
+
 
 

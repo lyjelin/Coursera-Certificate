@@ -344,9 +344,36 @@
 - [ ] Budget planning needs to incorporate increased capital expenditure.
 - [ ] IT costs become less variable and are easier to measure.
 
+#### Quiz 2 Security in the cloud
 
+1. What are the three components of Google Cloud’s defense-in-depth data security design? Select the correct answer.
+- [ ] Perimeter security, fingerprint authentication, globally distributed data storage
+- [ ] Sharding, biometric authentication, 2-factor authentication
+- [ ] Categorized data, data encryption keys, globally distributed encryption keys 
+- [x] **Sharding, encryption key, key encryption key**
 
+2. You have received an email that says the following: “We have identified that your account is vulnerable. Click this link to change your security settings.” What cybersecurity risks do you need to consider before clicking on the link? Select two correct answers.
+- [ ] Use of secured third-party systems
+- [x] **Malware attacks on files**
+- [x] **Phishing for sensitive data**
+- [ ] Physical hard disk damage
+- [ ] Recruitment of security expertise
 
+3. What Google Cloud security layer does “strong authentication for data access” relate to? Select the correct answer.
+- [ ] Operations
+- [ ] Network
+- [x] **Identity**
+- [ ] Storage
 
+4. An Identity Access Management policy, or IAM policy, is made of three parts. What are they? Select the correct answer.
+- [ ] "Where", "can resources be allocated", and "to verify identity".
+- [ ] "How", "can we please our customers", and "with existing resources".
+- [ ] "What", "can be solved", and "with which software".
+- [x] **“Who”, “can do what”, and “on which resource”.**
 
+5. What is Google Cloud’s principle for granting access to users? Select the correct answer.
+- [ ] "Shared responsibility"
+- [ ] "Most privilege"
+- [ ] "Restricted responsibility"
+- [x] **"Least privilege"**
 

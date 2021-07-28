@@ -138,11 +138,39 @@
 - [x] **Businesses can process terabytes of data in real-time.**
 - [ ] Customers can collaborate with corporations to create industry trends.
 
+### Quiz 2 Data Consolidation and Analytics
 
+1. Which of the following is an advantage for storing and managing data in the public cloud? Select the two correct answers.
+- [ ] Accessibility
+- [ ] Increased coverage
+- [x] **Elasticity**
+- [x] **Speed**
+- [ ] Increased CapEx
 
+2. How is data integrity achieved? Select the two correct answers.
+- [x] **By implementing a set of rules when a database is first designed**
+- [x] **Through ongoing error checking and validation routines as data is collected**
+- [ ] By including all types of data regardless of type
+- [ ] By converting all unstructured data into structured data
+- [ ] By fully migrating all types of data into a database
 
+3. How do databases and data warehouses differ? Select the correct answer.
+- [ ] Data warehouses efficiently process structured data, while databases rapidly process software data.
+- [x] **Databases efficiently ingest large amounts of real-time data, while data warehouses rapidly analyze multi-dimensional datasets.**
+- [ ] Databases efficiently process structured data, while data warehouses rapidly process unstructured data.
+- [ ] Data warehouses efficiently ingest large amounts of real-time data, while databases rapidly analyze large, multi-dimensional datasets.
 
+4. What is a data lake? Select the correct answer.
+- [ ] A refined data repository accessible by employees and select customers
+- [x] **A repository of raw data and tend to hold ‘back up’ data**
+- [ ] A decentralized repository of structured and unstructured data
+- [ ] A large pool of data accessible to database administrators only
 
+5. Lydia manages a large hotel chain. How can Looker enable Lydia to better serve her customers? Select the correct answer.
+- [x] **She can use it to create real-time dashboards.** 
+- [ ] She can use it to create standard static dashboards
+- [ ] She can use it to containerize important metrics
+- [ ] She can use it to commercialize important metrics for customers
 
 
 

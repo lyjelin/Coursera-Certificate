@@ -1,4 +1,6 @@
-# Week 1
+# Operating Systems and You: Becoming a Power User
+
+## Week 1
 
 ### Basic Commands
 

@@ -35,7 +35,20 @@ Command Line Interfaces `CLI`
 
 ### Week 2
 
+> 
+1. Users and Group
+2. Permissions
+
 Standard user : user who's given restricted access to a machine
 Administrator : user that has complete control over a machine
 Windows domain : network of computers, users, files, etc that are added to a central database
 root user : first user that gets automatically created when we install a Linux OS.
+
+Windows : Fils/Dir permissions are assigned using Access Control Lists `ACLs`
+- DCLs
+- SCLs
+
+SetUID : used to allow a file to be run as the owner of the file.
+Sticky bit : allows the file to be modified by anyone, but only removed by the owner or root
+
+

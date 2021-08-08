@@ -142,3 +142,29 @@ What command can you use to search for the word "fruit" in the text files in the
 - [x] **Orca**
 - [ ] Setup.exe
 
+### Device Software Management
+
+1. Which of the following is the piece of information that Windows will use to search for the right driver for a new piece of hardware connected to a Windows computer?
+- [ ] PnP code
+- [x] **Hardware ID**
+- [ ] Drive Identification Number, or DiD
+
+2. In Linux, in the /dev directory, devices that start with sd can be associated with what type of device? Check all that apply.
+- [ ] Speakers
+- [x] **Hard drives**
+- [x] **USB drives**
+- [x] **Memory sticks**
+
+3. Which of the following correctly describes a "Security Patch?" 
+- [x] **A piece of software that's meant to fix up a security hole.**
+- [ ] A piece of fabric that's meant to patch a broken cable.
+- [ ] An entirely new, more secure, version of an operating system.
+
+
+
+
+
+
+
+
+

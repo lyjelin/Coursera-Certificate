@@ -51,4 +51,65 @@ Windows : Fils/Dir permissions are assigned using Access Control Lists `ACLs`
 SetUID : used to allow a file to be run as the owner of the file.
 Sticky bit : allows the file to be modified by anyone, but only removed by the owner or root
 
+### Week 3
 
+> 
+1. Packages
+2. Package Manager
+3. Device SW management
+
+|   	|Windows   	|Linux/MacOS   	| 
+|---	|----------	|--------------	|
+|.exe   |Y   		|   			|  
+|.msi   |Y   		|   			| 
+|.deb   |   		|Y [dpkg]  		|
+|.apt   |   		|Y 		 		|
+|.dpkg  |   		|Y  	  		|
+
+`.exe` (contains instruction for a computer to execue when they're run
+- Contains `.msi` file (Microsoft install package) : Used to guide a program valled he Windows installer in the installation, maintenance, and removal of programs on the Windows OS
+- Can be used as stand-alone file with no custome installers, with no msi files
+
+Archives 
+- Package archives are basically the core or source software files that are compressed into one file
+- `7-zip` [reference](https://www.7-zip.org/download.html) 
+
+Dynamic-link libraries `DLL`
+Side by Side Assembly `SxS`
+- Manifest tells Windows to load the appropriate library from the SxS folder
+- SxS system supports access to multiple versions of the same shared library automatically
+Sysinternal package
+
+**Package managers** comes with the works to make package installation and removal easier, including installing package dependencies
+- if user install a standalone package, user won't automatically install its dependencies.
+- Advanced Package Tool `apt` : Package manager for the Ubuntu OS
+	- APT package manager is used to extend the functionality of `dpkg`
+    - Makes package installation easier (installs package dependencies for user, makes it easer to find packages that user can install, cleans up package which is not needed)
+    - `sudo apt upgrade` : Before installing new software, it's good to run APT update to make sure user is getting the most up-to-date software in one's repositories.
+
+Package repositories : Repositories are servers that act like a central storage location for packages.
+- PPA `Personal Pacakage Archive` : Software respository for uploading source packages to be built and published as an apt repository by Launchpad
+	- PPA software isn't as vetted as repositories user might find from reputable sources like Ubuntu
+    - They can sometimes contain defective, or even malicious software
+
+The Windows installer uses the information stored on the tables in the MSI database, to guide how the installation should be performed. 
+- They'll know where files and application data should go, and any other things that should happen to successfully install the program. 
+- The Windows installer will keep track of all the actions it takes and create a separate set of instructions to undo them. 
+- This is how it lets users uninstall the program.
+
+Driver : used to help HW devices interact with our OS
+- `devmgmt.msc` - window
+- `dev` - Linux
+	1. Character devices : keyboard/mouse; transmit data character by character
+    2. Block devices : USB, Hard drives, DBROMs; transfer blocks of data, a data block is a unit of data storage
+- `sd` : massive data storage
+- Not all kernal modules are drivers
+
+OS Updates
+1. Windows
+	- Security patch : software that's meant to fix up a security hole
+    - Windows Updata Client Service
+2. Linux
+	- `apt update` or `apt upgrade`
+    - Kernal : just another package
+    - `uname` : gives system information (`uname -r` : verify latest kernal version)

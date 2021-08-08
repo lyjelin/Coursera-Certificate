@@ -134,3 +134,11 @@ What command can you use to search for the word "fruit" in the text files in the
 - [x] **apt update**
 - [ ] apt remove
 - [ ] apt search
+
+### What’s happening in the background?
+
+1. Which of the following tools allows you to create or edit MSI files?
+- [x] **Process monitor**
+- [ ] Orca
+- [ ] Setup.exe
+

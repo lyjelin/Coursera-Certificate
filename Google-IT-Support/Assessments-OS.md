@@ -122,4 +122,15 @@ What command can you use to search for the word "fruit" in the text files in the
 - [ ] Register-PackageSource
 - [x] Find-Pacakage
 
+### Package Managers
 
+1. Which of the following PowerShell commands will install the package "awesomesoftware" from the Chocolatey software source?
+- [x] Install-Package -Name awesomesoftware -Source chocolatey
+- [ ] Install-Package -Name chocolatey -Source awesomesoftware 
+- [ ] Install-Package -Name awesomesoftware -Source MicrosoftWindows
+
+2. Before you install software, which of the following commands should you run to get an updated version of your software?
+- [ ] apt install
+- [x] apt update
+- [ ] apt remove
+- [ ] apt search

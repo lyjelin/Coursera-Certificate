@@ -138,7 +138,7 @@ What command can you use to search for the word "fruit" in the text files in the
 ### What’s happening in the background?
 
 1. Which of the following tools allows you to create or edit MSI files?
-- [x] **Process monitor**
-- [ ] Orca
+- [ ] Process monitor
+- [x] **Orca**
 - [ ] Setup.exe
 

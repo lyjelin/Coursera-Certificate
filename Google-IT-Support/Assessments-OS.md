@@ -236,4 +236,19 @@ What command can you use to search for the word "fruit" in the text files in the
 - [x] **True**
 - [ ] False
 
+### Managing Processes
+
+1. Which of the following tools can help you gather information about the processes running on a Windows operating system?
+- [ ] The Task Manager
+- [ ] The tasklist utility from a command prompt
+- [ ] The Get-Process commandlet from a PowerShell prompt
+- [x] **All of the above**
+
+2. If you restart a process using the Process Explorer utility, what will the new parent of that process be?
+- [ ] cmd.exe
+- [x] **Process Explorer**
+- [ ] windows.exe
+- [ ] momanddad.exe
+
+
 

@@ -228,5 +228,12 @@ What command can you use to search for the word "fruit" in the text files in the
 - [ ] /etc/sudoers
 - [ ] /etc/group
 
+## Week 5
+
+### Life of a Process
+
+1. True or false: Windows processes can operate independently of their parents.
+- [x] **True**
+- [ ] False
 
 

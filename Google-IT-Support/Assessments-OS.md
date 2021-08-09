@@ -250,5 +250,34 @@ What command can you use to search for the word "fruit" in the text files in the
 - [ ] windows.exe
 - [ ] momanddad.exe
 
+### Process Utilization
 
+1. Which of the following PowerShell commands will tell you which process on your system is using the most CPU resources?
+- [x] **Get-Process | Sort CPU -descending | Select -first 1 -Property ID,ProcessName,CPU**
+- [ ] Get-Process | Sort RAM -descending | Select -first 1 -Property ID,ProcessName,CPU
+- [ ] cpu_usage.exe | top -1
+
+2. If you have a slow computer, what are some possible culprits that could be causing this?
+- [x] **High CPU usage**
+- [x] **Lots of I/O activity**
+- [x] **High RAM usage**
+- [x] **Too many processes running**
+
+3. In a Linux machine, what command can you use to safely terminate a process with a PID of 342?
+- [x] **kill 342**
+- [ ] kill -KILL 342
+- [ ] kill -TSTP 342
+- [ ] kill -CONT 342
+
+4. In a Linux machine, what command can you use to absolutely kill a process with a PID of 342?
+- [ ] kill 342
+- [x] **kill -KILL 342**
+- [ ] kill -TSTP 342
+- [ ] kill -CONT 342
+
+5. In a Linux machine, what command can you use to suspend a process with a PID of 342?
+- [ ] kill 342
+- [ ] kill -KILL 342
+- [x] **kill -TSTP 342**
+- [ ] kill -CONT 342
 

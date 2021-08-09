@@ -113,3 +113,37 @@ OS Updates
 	- `apt update` or `apt upgrade`
     - Kernal : just another package
     - `uname` : gives system information (`uname -r` : verify latest kernal version)
+
+### Week 4
+
+> 
+1. Disk Partitioning
+2. Formatting Filesystem
+
+
+Disk Anatomy
+- Storage disk can be divided into partitions
+- Partition : Piece of disk that user can manage
+- Partition Table : tells the OS how the disk is partitioned; (i) MBR `Master Boot Record` (ii) GPT `GUID Partition Table`
+
+- Mounting : Making something accessible to the computer, like a filesystem or a hard disk
+- Swap space : Dedicated area of the hard drive used for virtual memory
+
+Files
+- NTFS `Native File System` of window
+- NTFS use MFT `Master File Table`; Every file on a volume has at least one entry in MFT
+- Symbolic link 
+- Soft link (`soft link >> File >> HDD`)
+- Hard link (`hard link >> Inode >> Inode Table >> HDD`)
+- In Linux, **Inode** stores everything about a file, except filename and file data
+
+Data buffer : region of RAM that's used to temporarily store data while it's being moved around
+Data Corruption : can be caused by system failure/software bugs (NTFS has some advanced features built in that can help minimize the danger of corruptions, as well as, try to recover when the file system get damaged)
+
+
+
+
+
+
+
+

@@ -164,6 +164,31 @@ Signal : A way to tell a process that something's just happened
 - `SIGINT` signal interrupt (window)
 - `SIGTERM` termination signal (linux)
 
+### Week 6
+
+> 
+1. Remote Access
+2. Virtualization
+3. Logging
+
+Remote connection file transfer > `SCP` Secure Copy (Used in Linux to copy files between computers on a network)
+
+Virtualization
+- Virtual instance : single virtual machine (i.e. virtualBox)
+
+`log` (i.e. `console.log`) : Logs tell the exact time that an event occurred, who caused the event, and more
+- Logging : Act of creating log events
+- Windows - **Event Viewer** / `eventvwr.msc`
+- Linux - stored in `/var/log` dir (`/var/log/syslog` contains the most comprehensive information about user's system)
+
+Imaging Software
+- Imaging a machine, means to format a machine with an image of another machine. This includes everything, from the operating system to the settings.
+- OS Deployment Methods
+	- i.e. Disk cloning tool : makes a copy of entire disk and allow user to back up a current machine or set a new one
+    	- disk-to-disk cloning : connect an external hard drive (i.e. SDD) to the machine you want to clone
+        
+
+
 
 
 

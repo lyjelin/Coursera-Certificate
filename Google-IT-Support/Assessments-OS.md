@@ -281,3 +281,42 @@ What command can you use to search for the word "fruit" in the text files in the
 - [x] **kill -TSTP 342**
 - [ ] kill -CONT 342
 
+## Week 6
+
+### Remote Access
+
+1. Which portion of the PuTTY package allows you to perform file transfers using the SCP (Secure Copy) protocol?
+- [x] **pscp.exe**
+- [ ] psftp.exe
+- [ ] pageant.exe
+
+### Logging
+
+1. If you were investigating login issues on a Windows computer, which portion of the Event Viewer logs would be a good place to start your investigation?
+- [ ]  System
+- [ ]  Application and Services
+- [x]  **Security**
+
+2. In what log files can you find information about bootup errors? Check all that apply.
+- [x] **/var/log/syslog**
+- [ ] /var/log/auth.log
+- [x] **/var/log/kern.log**
+- [ ] var/log/mail.log
+
+3. In what log files can you find information about authentication errors? 
+- [ ] /var/log/syslog
+- [x] **/var/log/auth.log**
+- [ ] /var/log/kern.log
+- [ ] var/log/mail.log
+
+4. For an ssh connection to work, which of the following need to be true? Check all that apply.
+- [x] **SSH is installed on client**
+- [x] **The SSH server is running on the host you want to connect to**
+- [ ] VPN needs to be set up
+- [x] **You need to specify a histname to SSH into**
+
+
+
+
+
+

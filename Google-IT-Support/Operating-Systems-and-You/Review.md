@@ -140,6 +140,30 @@ Files
 Data buffer : region of RAM that's used to temporarily store data while it's being moved around
 Data Corruption : can be caused by system failure/software bugs (NTFS has some advanced features built in that can help minimize the danger of corruptions, as well as, try to recover when the file system get damaged)
 
+### Week 5
+
+> 
+Processes
+
+Session Manager Subsystem : First non-kernal user mode that starts when window boots up or start
+
+View Processes (in Linux) : 
+- `ps -x`
+	- `PID` : process id
+	- `TTY` : terminal associated wih the process
+	- `STAT` : Process status
+- `ps -ef` 
+	- `UID` : user ID of the person whp launched the process
+    - `PPID` : parent id
+    - `C` : # of children processes
+    - `STIME` : start time of the process
+    - `TIME` : total CPU time that the process has taken up
+    - `CMD` : name of the command the process is running
+
+Signal : A way to tell a process that something's just happened
+- `SIGINT` signal interrupt (window)
+- `SIGTERM` termination signal (linux)
+
 
 
 

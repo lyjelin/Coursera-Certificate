@@ -51,6 +51,17 @@
 - [ ] Services are handled by another organization, so that makes your organization dependent on a third party.
 - [ ] There are potential long-term costs associated with local computing.
 
+### Systems Administration Tasks
 
+1. Which of the following is a good policy to enforce on passwords? Check all that apply.
+- [ ] A long password length
+- [ ] The use of common words
+- [ ] A mixture of symbols and numbers
+- [ ] A short password length
 
+2. Which of these is part of the hardware lifecycle? Check all that apply. 
+- [ ] Retirement
+- [ ] Procurement
+- [ ] Deployment
+- [ ] Network Connectivity
 

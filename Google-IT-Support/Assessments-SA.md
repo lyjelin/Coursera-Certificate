@@ -217,5 +217,24 @@
 - [x] **Recycling**
 - [ ] Maintenance
 
+## Week 2
 
+Intro to IT Infrastructure Services
 
+1. Which of the following is considered a physical infrastructure service? Check all that apply. 
+- [x] **Laptop**
+- [x] **Desktop**
+- [x] **Rack server**
+- [ ] Operating system
+
+2. Which of these is considered a network service? Check all that apply. 
+- [x] **Wireless internet**
+- [x] **DNS**
+- [ ] Blade server
+- [x] **Ethernet cables**
+
+3. Which of these is considered a software service? Check all that apply. 
+- [x] **Chat applications**
+- [x] **Word Processors**
+- [x] **Email applications**
+- [ ] Wireless internet

@@ -259,5 +259,36 @@
 - [x] **An SSH server on the machine you want to connect to**
 - [ ] A virtual server to connect to
 
+### Network Services
+
+1. What is one benefit of using TFTP over SFTP? 
+- [ ] Added security
+- [x] **Simpler transfer without authentication**
+- [ ] The encrypted transfer of data
+- [ ] The user authentication requirement
+
+2. What service can you use to keep time synchronized across the machines on your fleet? 
+- [ ] FTP
+- [ ] Kerberos
+- [x] **NTP**
+- [ ] SFTP
+
+3. What features does a proxy offer? Check all that apply.
+- [ ] Network privacy
+- [ ] Network traffic monitoring
+- [ ] Network traffic filtering
+- [ ] The ability for employees to share information more easily
+
+4. If you want to point a domain name to a web server or use hostnames within your company, what network protocol can you use? 
+- [ ] DHCP
+- [x] **DNS**
+- [ ] NTP
+- [ ] SFTP
+
+5. If you don't want to use static IP addresses, but want to dynamically assign IP addresses to computers instead, what network protocol can you use? 
+- [ ] TFTP
+- [ ] Kerberos
+- [ ] NTP
+- [x] **DHCP**
 
 

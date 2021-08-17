@@ -219,7 +219,7 @@
 
 ## Week 2
 
-Intro to IT Infrastructure Services
+### Intro to IT Infrastructure Services
 
 1. Which of the following is considered a physical infrastructure service? Check all that apply. 
 - [x] **Laptop**
@@ -238,3 +238,26 @@ Intro to IT Infrastructure Services
 - [x] **Word Processors**
 - [x] **Email applications**
 - [ ] Wireless internet
+
+### Physical Infrastructure Services
+
+1. If you're running a server, which one of the follow operating systems would be best suited for your server? 
+- [ ] Windows 10
+- [x] **Ubuntu Server**
+- [ ] MacOS
+- [ ] Ubuntu
+
+2. What are the benefits of virtualizing servers? Check all that apply. 
+- [x] **Better hardware resource utilization**
+- [x] **Easier maintenance**
+- [x] **Lower costs**
+- [ ] Better performance than a dedicated server
+
+3. Which of the following do you need in order to SSH to a machine? Check all that apply. 
+- [x] **An SSH client on the machine you want to connect from**
+- [ ] A VPN connection
+- [x] **An SSH server on the machine you want to connect to**
+- [ ] A virtual server to connect to
+
+
+

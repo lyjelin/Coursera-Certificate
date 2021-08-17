@@ -291,4 +291,102 @@
 - [ ] NTP
 - [x] **DHCP**
 
+### Graded Assessment : Network Services
+
+1. Let's say that you're the sole IT person at your company. The company is a very small startup, and they need to set up a few non-critical services and have a single physical server in place. What's the best approach to fully utilize this server?
+- [ ] Particion the hard drive on the server
+- [x] **Set up virtualized servers on the server**
+- [ ] Purchases a service from an IaaS provider
+- [ ] Use the server for a single service and don't worry about the other services
+
+2. If you wanted to securely transfer files from your local machine to a web server, what file transfer protocol could you use?
+- [ ] FTP
+- [ ] TFTP
+- [x] **SFTP**
+- [ ] NTP
+
+3. You're the sole IT employee at your company, and you don't know how many users or computers are in your organization. Uh oh! What can you use to easily manage the users in your company?
+- [ ] Physical infrastructure services
+- [ ] Network services
+- [ ] Platform services
+- [x] **Directory services**
+
+4. What are the advantages of using Infrastructure as a Service (or IaaS) solutions? Check all that apply.
+- [x] **You're not responsible for managing hardware tasks**
+- [x] **Operating system updates are taken care of for you**
+- [x] **You can have the hardware you need without upgrading any actual hardware**
+- [ ] You can keep all your files on local machines
+
+5. In Linux, the most popular remote access tool is OpenSSH. Which software performs the same remote command line (CLI) access from a Windows machine? Check all that apply.
+- [ ] RDP
+- [x] **PuTTY**
+- [x] **WinRM**
+- [ ] Microsoft Azure
+
+6. What are some reasons DNS is necessary? Check all that apply.
+- [ ] It improves network throughput
+- [x] **It makes internet websire OP addresses accessible with human readable domain names**
+- [x] **It maps local addresses to simple names without editing hosts files**
+- [x] **It simplifies remote access**
+
+7. What does PXE Boot stand for?
+- [x] **Pre Boot Execution**
+- [ ] Pay-to-Boot Extortion
+- [ ] Past Boot Examination
+- [ ] Post Boot Extraction
+
+8. Which of the following is not a network file transfer protocol?
+- [ ] TFTP
+- [x] **NTP**
+- [ ] SFTP
+- [ ] FTP
+
+9. Let's say that you handle the IT systems administration for your company. There's a server inside of your organization that checks how often client machines access it. If a client machine hasn't accessed the server in three months, the server won't allow the client machine to access its resources anymore. What can you set to make sure that your client machines and the server times are in sync?
+- [ ] FTP
+- [x] **NTP**
+- [ ] Proxy
+- [ ] Intranet
+
+10. Which of the following options allow you to access a computer remotely? Check all that apply.
+- [ ] NTP
+- [x] **SSH**
+- [ ] Server
+- [x] **VPN**
+
+11. When you make a DNS query, where does your computer first check to find an IP address to name mapping?
+- [ ] ISP DNS servers
+- [x] **Your local machine**
+- [ ] Root servers
+- [ ] Top-level domains
+
+12. Which are advantages of using a server operating system?
+- [x] **More RAM and stroage capacity**
+- [ ] Simplified user interface
+- [x] **More network connections**
+- [x] **Extra security features and networking services built right in**
+
+13. A network service developer is looking to install the most secure file transfer protocol. Which protocol would best fit this criteria?
+- [ ] TFTP
+- [X] **SFTP**
+- [ ] NTP
+- [ ] FTP
+
+14. A sysadmin is looking to use Pre Boot Execution over a network by keeping operating system installation files on a server. Which type of server is this most likely to be?
+- [ ] SFTP server
+- [ ] DNS server
+- [ ] FTP server
+- [x] **TFTP server**
+
+15. Let's say that you're the sole IT person in your company, and your boss wants a way to block certain websites from employees. What can you set up to help with this request?
+- [ ] Intranet
+- [ ] FTP
+- [x] **Proxy server**
+- [ ] DNS
+
+
+
+
+
+
+
 

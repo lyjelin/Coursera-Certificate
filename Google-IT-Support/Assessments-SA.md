@@ -435,9 +435,19 @@
 - [x] **Database server**
 - [ ] DNS server
 
+### Troubleshooting Platform Services
 
+1. HTTP status codes that begin with 4xx, like 404, indicate errors on: 
+- [x] **The client-side**
+- [ ] The server-side
+- [ ] Nowhere; these codes are successful
+- [ ] Redirection
 
-
+2. HTTP status codes that begin with 5xx, like 501, indicate errors on: 
+- [ ] The client-side
+- [x] **The server-side**
+- [ ] Nowhere; these codes are successful
+- [ ] Redirection
 
 
 

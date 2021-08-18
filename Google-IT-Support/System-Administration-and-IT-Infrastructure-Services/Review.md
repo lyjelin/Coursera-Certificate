@@ -59,6 +59,55 @@ Network Services
 - Network Time Protocol `NTP` - allow machines to synchronize their clocks (Ubuntu installations include a daemon that runs on the machine and is in charge of synchronizing the clock using NTP)
 	- i.e. NTP daemon running status check in Linux `service NTP status`
 
+### Week 3
+
+> Software services
+- Communication services (i.e. instant communication)
+- Security services
+- User productivity services
+- File services
+- Platform services
+- Cloud recources
+
+Email Services
+1. POP3 - Good security, Good when have limited Quota, Can retrieve email
+2. IMAP - Can retrieve email, Can receive email in multiple devices
+3. SMTP - Can send & retreive email
+
+File Services
+- File storage services allow us to centrally store files and manage access between files and groups.
+- Network File Storage : A protocol that enables files to be shared over a network
+	- SAMBA : is a software service suite used for file services 
+    - SMB : is a protocol that Samba implements
+    - NAS : network attached storage, computers that are optimized for file storage
+    
+Platform Services
+- Platform services provide a platform for developers to completely build and deploy software applications, without having to deal with OS maintenance, server hardware, networking or other services that are needed to use the platform tools
+- i.e. apache
+- Database server (i.e. MySQL, PostgreSQL)
+
+Trouble shooting tools
+- i.e. HTTP status code : codes or numbers that indicate some sort of error or info messages that occurred when trying to access a web resource
+	- 4xx error : client side issue
+    - 5xx error : server side issue
+    - 2xx : successful
+
+Cloud
+- SaaS : software is already pre-configured and the user isn't deeply involved in the cloud configuration
+- IaaS : user hosting your own services in the cloud
+- Zone : locations where each of the data center are in
+- Public/Private/Hybrid Cloud
+
+
+
+
+
+
+
+
+
+
+
 
 
 

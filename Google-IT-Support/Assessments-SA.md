@@ -383,10 +383,31 @@
 - [x] **Proxy server**
 - [ ] DNS
 
+## Week 3
 
+### Software Services
 
+1. What are some communication services you can utilize in your organization? Check all that apply. 
+- [X] **Email**
+- [x] **Chat applications**
+- [ ] DNS
+- [x] **Phones**
 
+2. What's the difference between POP3 and IMAP? Check all that apply.  
+- [x] **POP3 can only download email to one local device.**
+- [ ] IMAP can only download email to one local device.
+- [ ] POP3 is used for sending emails.
+- [x] **IMAP can download emails onto multiple devices.**
 
+3. True or false: Commercial-use and personal-use software licenses are essentially the same thing.
+- [ ] True
+- [x] **False**
+
+4. What are the differences between TLS and SSL? Check all that apply.  
+- [x] **TLS is the successor to SSL.**
+- [x] **TLS is more secure than SSL.** 
+- [ ] SSL is more secure
+- [ ] SSL is the successor to TLS.e than TLS.
 
 
 

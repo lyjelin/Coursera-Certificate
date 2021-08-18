@@ -541,14 +541,93 @@
 - [ ] Complex
 - [x] **SASL**
 
+### Active Directory
 
+1. What is Active Directory? Check all that apply. 
+- [ ] An open-source directory service
+- [ ] A Windows-only implementation of a directory service
+- [x] **Microsoft's implementation of a directory service**
+- [x] **An LDAP-compatible directory service**
 
+2. How is an Organizational Unit different from a normal container
+- [ ] It's not; it's just a different name for a container
+- [ ] It can hold other objects
+- [ ] It can hold other containers
+- [x] **It can hold additional containers**
 
+3. When you create an Active Directory domain, what's the name of the default user account? 
+- [ ] Superuser
+- [ ] Root
+- [ ] Username
+- [x] **Administrator**
 
+4. True or false: Machines in the Domain Controllers group are also members of the Domain Computers Group
+- [ ] True
+- [x] **False**
 
+5. In what way are security groups different from distribution groups?
+- [ ] They're the exact same thing
+- [ ] Security groups are used for computers, while distribution groups are used for users
+- [ ] Security groups are used for users, while distribution groups are used for computers
+- [x] **Security groups can be used to provide access to resources, while distribution groups are only used for email communication**
 
+6. What;s the difference between changing a password and resetting a password?
+- [x] **Changing a password requires the previoud password**
+- [ ] Changing a password does not require a previoud password
+- [ ] Resetting a password locks the account
+- [ ] They're the same
 
+7. True or false: Joining a computer to Active Directory involves joining the computer to a workgroup.
+- [ ] True
+- [x] **False**
 
+8. Joining a computer to an AD domain provides which of the following advantages? Check all that apply. 
+- [x] **Centralized authentication**
+- [ ] More detailed logging
+- [x] **Centralized management with GPOs**
+- [ ] Better performance
+
+9. What are Group Policy Objects?
+- [ ] Special types of containers
+- [ ] Special types of computers groups
+- [ ] Special types of user geoups
+- [x] **Settings for computers and user accounts in AD**
+
+10. What's the difference between a policy and a preference? 
+- [ ] They're the exact same thing
+- [ ] A policy is used to set a preference
+- [x] **A policy is enforced by AD, while a preference can be modified by a local user**
+- [ ] A policy can be modified by a local user, while a preference is enforced by AD
+
+11. With a brand new AD domain, what do you need to change before you can target groups of users and machines with GPOs? 
+- [ ] Nothing; the default configuration is good to go.
+- [x] **You need to place users and computers into new OUs**
+- [ ] You need to create an administrator account
+- [ ] You need to rename the default froups
+
+12. Select the right order of enforcement of GPOs: 
+- [x] **Site --> Domain --> OU**
+- [ ] OU --> Domain --> Site
+- [ ] Domain --> Site --> OU
+- [ ] Site --> OU --> Domain
+
+13. What can we user to determine what policies will be applied for a given machine?
+- [ ] gpupdate
+- [ ] A control panel
+- [ ] A test domain
+- [x] **An RSOP report**
+
+14. How does a client discover the address of a domain controller? 
+- [ ] It's pushed via an AD GOP
+- [ ] It sends a broadcast to the local network
+- [X] **It makes a DNS query, asking for the SRV record for the domain**
+- [ ] It's provided via DHCP
+
+15. Which of the following could prevent you from logging into a domain-joined computer? Check all that apply
+- [x] **You're unable to reach the domain controller**
+- [ ] Your computer is connected to Wifi
+- [x] **The user account is locked**
+- [x] **The time and date are incorrect**
 
 
 

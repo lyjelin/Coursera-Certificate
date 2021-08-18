@@ -449,6 +449,60 @@
 - [ ] Nowhere; these codes are successful
 - [ ] Redirection
 
+### Graded Assessment : Software and Platform Services
+
+1. You want to be super private with your email. You'd like to be able to download your email to a single device, then remove it from your email server. What email protocol can you use to do that?
+- [ ] HTTP
+- [x] **POP3**
+- [ ] IMAP
+- [ ] SMTP
+
+2. If you don't want to set up your own dedicated hardware to use for network file storage, what are your other options?
+- [x] **Use a cloud file storage provider
+- [ ] Set up a NAS
+- [ ] Set up an HTTP server
+- [ ] Use a database server 
+
+3. Which of these is NOT an email protocol?
+- [ ] SMTP
+- [x] **IRC**
+- [ ] IMAP
+- [ ] POP3
+
+4. HTTPS is the secure version of HTTP. Which statements are true about HTTPS and security protocols? Check all that apply.
+- [ ] SSL is more secure than TLS
+- [x] **An HTTPS connection is authenticated by getting a digital certificate of trust from an entity called a certificate authority**
+- [x] **HTTPS can be secured with Transport Layer Security Protocol**
+- [x] **HTTPS can be secured with Secure Socket Layer protocol, or TLS**
+
+5. Apache is an example of what type of software?
+- [ ] Web browser
+- [x] **Web (HTTP) server software**
+- [ ] ANtivirus software
+- [ ] File transfer protocol (FTP) software
+
+6. An employee sets up Apache HTTP Server. He types 127.0.0.1 in the browser to check that the content is there. What is the next step in the setup process?
+- [x] **Set up DNS so the server can be accessed through the internet**
+- [ ] install CUPS
+- [ ] Nothing. The server is good to go
+- [ ] Assign a static IP address
+
+7. Which of these are examples of database software? Check all that apply.
+- [ ] Apache
+- [ ] CUPS
+- [x] **PostgreSQL**
+- [x] **MySQL**
+
+
+
+
+
+
+
+
+
+
+
 
 
 

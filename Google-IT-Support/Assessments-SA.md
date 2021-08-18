@@ -493,6 +493,31 @@
 - [x] **PostgreSQL**
 - [x] **MySQL**
 
+## Week 4
+
+### Introduction to Directory Services
+
+1. What does a directory server provide? 
+- [ ] A real-time communication service
+- [ ] A network time service
+- [x] **A lookup service for an organization**
+- [ ] A replication service
+
+2. What benefits does replication provide? Check all that apply. 
+- [x] **Redundancy**
+- [ ] Enhanced security
+- [ ] Increased capacity
+- [x] **Decreased latency**
+
+3. What's the most popular directory services protocol used today? 
+- [ ] Directory Access Protocol
+- [ ] Directory System Protocol
+- [x] **Lightweight Directory Access Protocol**
+- [ ] Directory Operational Binding Mangement Protocol
+
+
+
+
 
 
 

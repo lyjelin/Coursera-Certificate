@@ -406,8 +406,8 @@
 4. What are the differences between TLS and SSL? Check all that apply.  
 - [x] **TLS is the successor to SSL.**
 - [x] **TLS is more secure than SSL.** 
-- [ ] SSL is more secure
-- [ ] SSL is the successor to TLS.e than TLS.
+- [ ] SSL is more secure than TLS.
+- [ ] SSL is the successor to TLS.
 
 
 

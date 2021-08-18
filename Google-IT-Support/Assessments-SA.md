@@ -515,10 +515,31 @@
 - [x] **Lightweight Directory Access Protocol**
 - [ ] Directory Operational Binding Mangement Protocol
 
+### Centralized Management and LDAP
 
+1. Which of these are examples of centralized management? Check all that apply. 
+- [x] **Role-based access control**
+- [x] **Centralized configuration management**
+- [ ] Copying configurations to various systems
+- [ ] Local authentication
 
+2. Which of these are components of an LDAP entry? Check all that apply/
+- [ ] Uncommon Name
+- [x] **Common Name**
+- [ ] Organizational User
+- [x] **Distinguished Name**
 
+3. What does the LDAP Bind operation do exactly?
+- [ ] Modifies entries in a directory server
+- [ ] Looks up information in a directory server
+- [x] **Authenticares a client to the directory server**
+- [ ] Changes the password for a user accound on the directory server
 
+4. Which of the following are authentication types supported by the LDAP Bind operation? Check all that apply. 
+- [x] **Anonymous**
+- [x] **Simple**
+- [ ] Complex
+- [x] **SASL**
 
 
 

@@ -409,5 +409,38 @@
 - [ ] SSL is more secure than TLS.
 - [ ] SSL is the successor to TLS.
 
+### File, Print, and Platform Services
+
+1. What are the benefits of setting up an NFS server? Check all that apply.  
+- [ ] Connecting to printers
+- [x] **Storing files on a network drive**
+- [x] **Enabling files to be shared over a network**
+- [ ] Serving web content
+
+2. What methods could you use to set up printing in an organization? Check all that apply. 
+- [x] **Directly connecting a printer**
+- [x] **Setting up a print server**
+- [x] **Using a cloud service to set up printers**
+- [ ] Setting up an NFS server
+
+3. When you have a web server, what service is used to enable HTTP requests to be processed?
+- [x] **An HTTP server**
+- [ ] The web server
+- [ ] HTTP status codes
+- [ ] A database server
+
+4. You can use a(n) ______________ to store large amounts of customer data for a website.
+- [ ] NFS server
+- [ ] HTTP server
+- [x] **Database server**
+- [ ] DNS server
+
+
+
+
+
+
+
+
 
 

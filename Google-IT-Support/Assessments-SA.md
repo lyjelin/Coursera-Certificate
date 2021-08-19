@@ -629,6 +629,72 @@
 - [x] **The user account is locked**
 - [x] **The time and date are incorrect**
 
+### Graded Assessment : Directory Services
+
+1. How are things organized in a directory server?
+- [ ] By a seriec of nested groups
+- [x] **By a hierarchical model of objects and containers**
+- [ ] By a relational database structure
+- [ ] By a flat text file
+
+2. In order to authenticate user accounts against AD, what must be done to the computer first?
+- [ ] Enable the administrator account
+- [ ] Configure the firewall
+- [ ] Configure remote logging
+- [x] **Join it to the domain**
+
+3. What would you use if you wanted to set a default wallpaper background for all machines in your company, but still wanted users to be able to set their own wallpaper?
+- [ ] A policy
+- [x] **A preference**
+
+4. Which is NOT an advantage of replication of data in terms of directory services?
+- [ ] It provides redundancy for your data
+- [ ] It decreases latency when you access the directory service
+- [X] **It allows you to manage user account locally**
+- [ ] It allows flexibility, allowing you to easily create new object types as your needs change
+
+5. What are examples of Lightweight Directory Access Protocol (LDAP) directory server software? Check all that apply.
+- [x] **Microsoft's Active Directory**
+- [x] **OpenLDAP**
+- [ ] RDP
+- [ ] ADUC
+
+6. When you log into a website that uses a directory service, what command authenticates your username and password?
+- [x] **Bind**
+- [ ] Modify
+- [ ] Remove
+- [ ] Add
+
+7. Which of these statements are true about Domain Controllers (DCs)? Check all that apply.
+- [x] **Delegation can be used in Active Directory**
+- [ ] You should always use your Domain Admin or Enterprise Admin for day-to-day use
+- [x] **The default Organizational Unit (OU) called Domain Controllers contains all Domain Controllers**
+- [ ] Changes that are safe to be made by multiple Domain Controllers at once are tasked by granting them Flexible Single-Master Operations
+
+8. What is the difference between a group policy and a group policy preference
+- [ ] A policy is editable only by admins, but anyone can edit a group policy preference
+- [ ] A preference is editable only by admins, but anyone can edit a policy
+- [x] **Policies are reapplied every 90 minutes, and preferences are a settings template**
+- [ ] Preferences are reapplied every 90 minutes, and policies are more of a settings template
+
+9. A particular computer on your network is a member of several GPOs. GPO-A has precedence set to 1. GPO-B has precedence set to 2, and GPO-C has precedence set to 3. According to the given levels of precedence, what will be the resultant set of policy (RSOP) for this machine?
+- [x] **GPO-A will take precedence and overwrite any conflicting settings**
+- [ ] GPO-B will take precedence and overwrite any conflicting settings
+- [ ] GPO-C will take precedence and overwrite any conflicting settings
+- [ ] The computer will default to local policy due to the confusion
+
+10. What are the main differences between OpenLDAP and Microsoft's Active Directory (AD)? Check all that apply.
+- [x] **OpenLDAP works on any operating system, AD does not**
+- [ ] OpenLDAP doesn't work on Windows, but AD can be used on any operating system
+- [ ] AD is open-source, and OpenLDAP is not
+- [x] **OpenLDAP is open source, and AD is not**
+
+
+
+
+
+
+
 
 
 

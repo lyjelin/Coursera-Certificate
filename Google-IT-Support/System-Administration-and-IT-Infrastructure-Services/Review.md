@@ -98,7 +98,37 @@ Cloud
 - Zone : locations where each of the data center are in
 - Public/Private/Hybrid Cloud
 
+### Week 4
 
+> 
+Directory services
+
+- Directory Server : Contains a lookup service that provides mapping between network resources and their network addresses
+- Replication : The stored directory data can be copied and distributed across a number of physically distributed servers but still appear as one unified data store for querying and administering
+	- Replication is important because it provides redundancy by having multiple servers available simultaneously, so there will be minimal disruption to the service in the event that one of the server explodes
+    - Replication also decreases latency when user access the directory service
+
+Directory services : Userful for organizing data and making it searchable for an organization
+- Implementing Directory Services : i.e. `Directory System Protocol` DSP, `Directosy Information Shadowing Protocol` DISP, `Directosy Operational Bindings Management Protocol` DOP, Lightweight Directory Access Protocol `LDAP` 
+
+Centralized Management : A central service that provides instructions to all of the different parts of my IT infrastructure
+- Directory services provide centralized `authentication`, `authorization`, and `accounting`, also known as AAA
+
+LDAP 
+- Used to access information in directory services like over a network
+- **Active directory / OpenLDAP**
+- LDAP entry; i.e. `dn:CN=Devan Sri-Tharan,OU=Sysadmin,DC=example,DC=com`
+	- `dn` : distinguished name
+    - `CN` : common name
+    - `OU` : organizational unit
+    - `DC` : domain component
+- LDAP Authentication : (1) Anonymous (2) Simple (3) SASL
+
+Active Directory `AD` : Native directory service for Microsoft Windows; AD also becomes the central repository of group policy machines `GPOs` which are ways to manage the configuration of Windows machines
+- Active Directory Administrative Center `ADAC`
+- Flexible Single-Master Operations `FSMO`
+- Directory services are databases that are used to store information about objects 
+- Group Policy : A set of policies and preferences that can be applied to a group of objects in the directory; A GPO can contain `computer configuration` (when computer starts), `user configuration` (when user logs on) or both
 
 
 

@@ -764,6 +764,24 @@
 - [ ] Monitoring for internet line outages 
 - [ ] Maintaining redundant servers
 
+### Post-Mortems
+
+1. What's the intent behind writing a post-mortem? 
+- [ ] To assign blame for mistakes
+- [ ] To assign legal liability
+- [x] **To learn from mistakes and improve in the future**
+- [ ] To scare people into avoiding risky behaviour
+
+2. What should the timeline in a post-mortem include? Check all that apply. 
+- [x] **Actions taken before, during, and after the event**
+- [ ] A detailed analysis of the incident, including root cause and scope
+- [x] **Detailed dates and times**
+- [ ] A summary of the incident and how long it lasted
+
+
+
+
+
 
 
 

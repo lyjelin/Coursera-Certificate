@@ -778,6 +778,69 @@
 - [x] **Detailed dates and times**
 - [ ] A summary of the incident and how long it lasted
 
+### Graded Assessment : Data Recovery & Backups
+
+1. What options are available for storing backups, physically?
+- [ ] On-site only
+- [ ] Off-site only
+- [x] **Both on-site and off-site**
+- [ ] There's no need to store physical backups anymore
+
+2. How can you verify that your disaster recovery plan will be effective? Check all that apply.
+- [x] **Through thorough testing**
+- [ ] By waiting for a disaster
+- [x] **Through disaster simulations**
+- [ ] You'can't
+
+3. Which of these are part of the five primary elements that make up a post-mortem report? Check all that apply.
+- [x] A summary
+- [ ] Backup procedures
+- [x] A timeline
+- [x] Resolution and recovery steps
+- [x] A root cause description
+- [x] Recommended future action items
+
+4. Which backup type only backs up files that have changed since the last run?
+- [ ] Fill backup
+- [x] **Differencial backup**
+- [ ] Incremental backup
+- [ ] Partial backup
+
+5. When planning a backup strategy, ideally one needs to prioritize important data and only back up what is absolutely necessary for operations. Assuming storage limitations, which of these is LEAST important to back up?
+- [x] **User downloads**
+- [ ] Databases
+- [ ] Financial spreadsheets
+- [ ] Emails
+
+6. What is the standard medium for long-term archival backup data storage?
+- [ ] USB drives
+- [ ] Floppy disks
+- [ ] Optical disks
+- [x] **Magnetic tapes**
+
+7. Which type of backup only saves copies of files that have been changed or created since the last backup?
+- [ ] Incremental backup
+- [ ] Complete backup
+- [ ] RAID array
+- [x] **Differential backups**
+
+8. Cloud services are the ideal backup option for user files. Which of these is not one of today's popular cloud storage platforms?
+- [x] **Rsync**
+- [ ] Google Drive
+- [ ] Apple iCloud
+- [ ] Dropbox
+
+9. You are performing a network risk assessment to develop your disaster recovery plan. Which of these are examples of preventative measures? Check all that apply.
+- [x] **Redundancy solutions**
+- [x] **Regular, automated backups**
+- [ ] Alert system for outages
+- [x] **Operational documentation**
+
+10. Which of these are components of a post-mortem report? Check all that apply.
+- [x] **Detailed timeline of key events**
+- [x] **Explanation of resolution and recovery efforts**
+- [x] **Brief summary**
+- [ ] All log data
 
 
 

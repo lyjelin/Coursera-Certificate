@@ -732,7 +732,37 @@
 - [ ] True
 - [x] **False**
 
+### Disaster Recovery Plans
 
+1. What elements should a disaster recovery plan cover? Check all that apply. 
+- [x] **Detection measures**
+- [x] **Preventative measures**
+- [x] **Recovery measures**
+- [ ] Drastic measures
+
+2. Why are detection measures included in a disaster recovery plan? 
+- [ ] They aren't
+- [x] **Because it's important to know thwn a disaster occurs**
+- [ ] Because they prevent data loss
+- [ ] Because they make recovering from data loss easier
+
+3. What are good preventative measures to incorporate in your organization? Check all that apply. 
+- [ ] Monitoring and alerting systems
+- [x] **Redundant systems**
+- [x] **Regular backups**
+- [x] **Accessible and up-to-date documentation**
+
+4. What are good detection measures to incorporate in your organization? Check all that apply.
+- [x] **Environmental monitoring**
+- [ ] Backing up firewall rules
+- [ ] Redundant power supplies
+- [x] **System performance monitoring**
+
+5. What are good recovery measures to incorporate in your organization? Check all that apply. 
+- [x] **Restoring server configs from backup**
+- [x] **Following detailed recovery plan documentation**
+- [ ] Monitoring for internet line outages 
+- [ ] Maintaining redundant servers
 
 
 

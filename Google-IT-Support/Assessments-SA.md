@@ -689,8 +689,48 @@
 - [ ] AD is open-source, and OpenLDAP is not
 - [x] **OpenLDAP is open source, and AD is not**
 
+## Week 5
 
+### Planning for Data Recovery
 
+1. How can you recover from an unexpected data loss event? Check all that apply. 
+- [ ] WRite a post-mortem report
+- [x] **Recover data from damaged devices**
+- [x] **Restore data from backups**
+- [ ] Design a disaster recovery plan
+
+2. Where is it best to store backups, physically? 
+- [ ] On-site
+- [ ] Off-site
+- [ ] In a safe
+- [X] **Across multiple locations**
+
+3. Which of these should be included in your backups? Check all that apply. 
+- [x] **Firewall configurations**
+- [ ] A download folder
+- [ ] Family vacation photos
+- [x] **Sales databases**
+
+4. What's magnetic tape backup media best suited for? 
+- [x] **Long-term archival data**
+- [ ] Long-latency cached data
+- [ ] Cheap backup systems
+- [ ] Quick and efficient backups
+
+5. Why is it important to test backups and restoration procedures? Check all that apply. 
+- [ ] To reduce the size of backup data
+- [ ] To speed up the backup-and-restore process
+- [X] **To ensure backups work and dara can be restored from them**
+- [x] **To ensure that relevant data is included in the backups**
+
+6. Which of the following backup types are most space-efficient? 
+- [ ] Full backups
+- [ ] Differencial backups
+- [x] **Incremental backups**
+
+7. True or false: You can use a RAID array and use rsync to copy critical data to it for backups.
+- [ ] True
+- [x] **False**
 
 
 

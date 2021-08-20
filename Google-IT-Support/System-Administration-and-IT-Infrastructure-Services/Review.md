@@ -130,7 +130,7 @@ Active Directory `AD` : Native directory service for Microsoft Windows; AD also 
 - Directory services are databases that are used to store information about objects 
 - Group Policy : A set of policies and preferences that can be applied to a group of objects in the directory; A GPO can contain `computer configuration` (when computer starts), `user configuration` (when user logs on) or both
 
-### Week 4
+### Week 5
 
 Data Recovery : process of trying to restore data after an unexpected event that results in data loss or corruption
 - The best way to be prepared for a data-loss event is to have a well-thouht-out disaster plan and procedure in place

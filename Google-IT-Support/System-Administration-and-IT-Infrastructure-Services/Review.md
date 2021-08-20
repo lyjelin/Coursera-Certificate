@@ -130,6 +130,53 @@ Active Directory `AD` : Native directory service for Microsoft Windows; AD also 
 - Directory services are databases that are used to store information about objects 
 - Group Policy : A set of policies and preferences that can be applied to a group of objects in the directory; A GPO can contain `computer configuration` (when computer starts), `user configuration` (when user logs on) or both
 
+### Week 4
+
+Data Recovery : process of trying to restore data after an unexpected event that results in data loss or corruption
+- The best way to be prepared for a data-loss event is to have a well-thouht-out disaster plan and procedure in place
+-  Disaster plans should involve making regular backups of any and all critical data that's necessary for your ongoing business processes.
+- `Post-mortem` is a way for user to document any problems user discovered along the way, and most importantly, the ways user fixed them so user can make sure they don't happen again
+
+Backing up Data
+- i.e. Email databases, Sales Databases, Financial spreadsheets, Server configurations, Databases
+- `Local storage` for backup :
+	- Pros : Data is physically nearby, Low bandwidth needs
+    - Cons : Data loss due to damage at location
+- `Off-site storage` for backup :
+	- Pros : Data is safer in multiple locations
+    - Cons : Needs security and encryption, Needs large amounts of bandwidth
+- Backup Solutions
+	- `rsync` : File transfer utility that's designed to efficiently transfer and synchronize files between locations or computers.
+- Testing Backups 
+	- Restoration procedures : should be documented and accessible so that anyone with the right access can restore operations when needed
+    - Disaster recovery testing : critical to ensuring a well functioning recovery system
+
+Disaster recovery plan : A collection of documented procedures and plans on how to react and handle an emergency or disaster scenario, from the operational perspective
+- Preventive measures : Any procedures or systems in place that will proactively minimize the impact of a disaster
+- Detection measures : Meant to alert user and user's team that a disaster has occured that can be impact operations
+- Corrective or recovery measures : Those enacted after a disaster has occured
+- Designing a Disaster Recovery Plans : 
+	1. Perform Risk Assessment : Allows person-in-charge to prioritize certain aspects of the organizations that are more at risk if there's an unforseen event
+    2. Determine Backup and Recovery Systems
+    3. Determine Detectopm & Alert Measures & Test Systems
+    Determine Recovery measures
+    
+Post-mortem
+- Sysadmins create a `post-mortem` after an incident, an outage, or some event when something goes wrong, or at the end of a project to analyze how it went
+- Writing a Port-Mortem report : 
+	1. Brief summary (dates, time, timezone)
+    2. Detailed timeline (dates, time, timezone)
+    3. Root cause (What can be learned?)
+	4. Resoluctions and Recovery effects (dates, time, timezone)
+    5. Actions to Avoid same scenario
+
+
+
+
+
+
+
+
 
 
 

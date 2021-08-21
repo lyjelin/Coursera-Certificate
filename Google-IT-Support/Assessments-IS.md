@@ -169,3 +169,43 @@
 - [ ] The sender's email has been hacked
 - [x] **The sender's email was spoofed**
 - [ ] The sender's email password was used in a DNS Cache Poisoning attack
+
+## Week 2
+
+### Symmetric Encryption
+
+1. What are the components that make up a cryptosystem? Check all that apply.
+- [x] **Key generation algorithms**
+- [x] **Decryption algorithms**
+- [ ] Transmission algorithms
+- [x] **Encryption algorithms**
+
+2. What is steganography
+- [ ] The study of stegosauruses
+- [ ] The practive of encoding messages
+- [x] **The practice of hiding messages**
+- [ ] The study of languages
+
+3. What makes an encryption algorithm symmetric?
+- [ ] Different keys used for encryption and decryption
+- [ ] High speed  
+- [x] **The same keys used for encryption and decryption**
+- [ ] Very large key sizes
+
+4. What's the difference between a stream cipher and a block cipher?
+- [ ] There is no difference
+- [x] **Stream ciphers encrypt data as a continuous stream, while block ciphers operate on chunks of data.**
+- [ ] Block ciphers are only used for block device encryption.
+- [ ] Stream ciphers can't save encrypted data to disk.
+
+5. True or false: The smaller the encryption key is, the more secure the encrypted data is.
+- [ ] True 
+- [x] False
+
+
+
+
+
+
+
+

@@ -46,7 +46,7 @@
  - [ ] Is harmless
  - [ ] Is destructive
 
-#### Network Attacks
+### Network Attacks
 
 1. What are the dangers of a man-in-the-middle attack? Check all that apply
 - [x] **An attacker can modify traffic in transit**
@@ -72,8 +72,23 @@
 - [ ] Data destruction
 - [x] **Service unreachable**
 
+### Other Attacks
 
+1. How can you protect against client-side injection attacks? Check all that apply.
+- [ ] Utilize strong passwords
+- [x] **Use input validation**
+- [ ] Use a SQL database
+- [x] **Use data sanitization**
 
+2. True or false: A brute-force attack is more efficient than a dictionary attack.
+- [ ] True
+- [x] **False**
+
+3. Which of the following scenarios are social engineering attacks? Check all that apply. 
+- [ ] An attacker performs a man-in-the-middle attack.
+- [x] **You receive an email with an attachment containing a virus.** 
+- [ ] An attacker performs a DNS Cache poisoning attack.
+- [x] **Someone uses a fake ID to gain access to a restricted area.**
 
 
 

@@ -46,4 +46,34 @@
  - [ ] Is harmless
  - [ ] Is destructive
 
+#### Network Attacks
+
+1. What are the dangers of a man-in-the-middle attack? Check all that apply
+- [x] **An attacker can modify traffic in transit**
+- [x] **An attacker can block or redirect traffic**
+- [x] **An attacker can eavesdrop on unencrypted traffic**
+- [ ] An attacker can destroy data at rest
+
+2. Why is a DNS cache poisoning attack dangerous? Check all that apply
+- [x] **It allows an attacker to redirect targets to malicious webservers.**
+- [ ] It allows an attacker to remotely control your computer.
+- [ ] Errrr...it's not actually dangerous.
+- [x] **It affects any clients querying the poisoned DNS server.**
+
+3. Which of the following is true of a DDoS attack? 
+- [ ] Attack traffic is encrypted
+- [ ] This type of attack causes a significant loss of data
+- [x] **Attack traffic comes from lots of different hosts**
+- [ ] An attacker sends attack traffic directly to the target
+
+4. Which of the following result from a denial-of-service attack? Check all that apply.
+- [x] **Slow network performance**
+- [ ] Malware infection
+- [ ] Data destruction
+- [x] **Service unreachable**
+
+
+
+
+
 

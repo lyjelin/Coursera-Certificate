@@ -60,6 +60,40 @@ Deceptive Attacks
 - Social Engineering : Attack methos that relies heavily on interactions with humans instead of computers
 - Phishing attack : Phishing usually occurs when a malicious email is sent to a victim disguised as something legitimate, i.e. Spear phishing, Spoofing, Baiting, Tailgating
 
+### Week 2
+
+#### Symmetric Encryption
+
+Cryptography
+- `Encryption` : act of taking a message, called plaintext, and applying an operation to it, called a cipher. So that you receive a garbled, unreadable message as the output, called ciphertext.
+- `Decryption` : reverse process of encryption, taking the garbled output and transforming it back into the readable plain text
+- Encryption algorithm : The underlying logic of process that's used to convert the plaintext into ciphertext
+- Security through obscurity
+- Cryptosystem : Collection of algorithms for key generation and encryption and decryption operations that comprise a cryptographic service should remain secure, even if everything about the system is known except for the key
+- Frequency analysis : practice of studying the frequency with which letters appear in ciphertext
+- Steganography : The practive of hiding information from observers, but not encoding it
+
+Symmetric Cryptography
+- Kerchhoff's principle : `Key` is the most important component of the cipher to keep secret
+- Symmetric-key algorithm : Same key is used to encrypt and decrypt the message
+- Substitution cipher : encryption mechanism that replaces parts of your plaintext with ciphertext
+- Stream cipher : Takes a stream of input and encrypts the stream one character or one digit at a time, outputting one encrypted character or digit at a time (one-to-one relationship)
+- Block ciper : The cipher takes data in, places it into a bucket or block of data that's a fixed size, then encodes that entire block as one unit
+
+Symmetric Cryptography Algorithms
+- Data Encryption Standards `DES`
+	- DES was adopted as a federal standard for encrypting and securing government data
+    - It is a symmetric block cipher that uses 64-bit key sizes and operates on blocks 64-bits in size; Though the key size is technically 64-bits in length, 8-bits are used only for parity checking, a simple form of error checking. This means that real world key length for DES is only 56-bits.
+- Federal Information Processing Standard `FIPS` 
+- Key Length : defines the max potential strength of the system
+- Advanced Encryption Standard `AES`
+	- Symmetric block cipher
+    - Uses 128-bit blocks and supports key lengths of 128-bit, 192-bit, or 256-bit
+    - Due to the large key size, brute-force attacks on AES are only theoretical right now, because the computing power required exceeds anything feasible today
+- Important thing to keep in mind when considering various encryption algorithms is speed and ease of implementation
+- `RC4` Rivest Cipher 4 : Symmetric Stream ciper that gained widespread adoption because of its simplicity and speed
+	- supports key sized from 40-bits to 2048-bits
+
 
 
 

@@ -90,5 +90,82 @@
 - [ ] An attacker performs a DNS Cache poisoning attack.
 - [x] **Someone uses a fake ID to gain access to a restricted area.**
 
+### Graded Assessments : Understanding Security Threats
 
+1. Which of the following are examples of injection attacks? Check all that apply.
+- [ ] SYN flood attack
+- [x] **XSS attack**
+- [ ] Social engineering attack
+- [x] **SQL injection attack**
 
+2. An attacker could redirect your browser to a fake website login page using what kind of attack?
+- [ ] DDoS attack
+- [ ] Injection attack
+- [x] **DNS cache poisoning attack**
+- [ ] SYN flood attack
+
+3. An attack that would allow someone to intercept your data as it's being sent or received is called a(n) _________ attack.
+- [ ] Injection
+- [ ] SYN flood
+- [ ] Denial of Service
+- [x] **Man-in-the-middle**
+
+4. The best defense against injection attacks is to ______.
+- [ ] Use antimalware software
+- [x] **Use input validation**
+- [ ] Use strong passwords
+- [ ] Use a firewall
+ 
+5. The practice of tricking someone into providing information they shouldn't is called ________.
+- [ ] Man-in-the-middle attacks
+- [ ] Brute force attacks
+- [x] **Social engineering**
+- [ ] Eavesdropping
+
+6. Which of these is true of vulnerabilities? Check all that apply.
+- [x] **An exploit takes advantage of bugs and vulnerabilities**
+- [ ] An exploit the possibility of taking advantage of a vulnerability bug in code
+- [ ] A vulnerability is the possibility of suffering a loss in the event of an attack
+- [x] **A vulnerability is a flaw in the code of an application that can be exploited**
+
+7. Which of these is true of blackhat and whitehat hackers?
+- [ ] Blackhats and whitehats shouldn't be trusted
+- [ ] Blackhats try to find weaknesses, but whitehats don't
+- [x] **Blackhats are malicious. Whitehats exploit weakness to help mitigate threats**
+- [ ] Blackhats work with owners to fix problems. Whitehats are just trying to get into a system
+
+8. What is it called when a hacker is able to get into a system through a secret entryway in order to maintain remote access to the computer?
+- [ ] Ransomware
+- [x] **A backdoor**
+- [ ] Adware
+- [ ] A Trojan
+
+9. An unhappy Systems Administrator wrote a malware program to bring down the company's services after a certain event occurred. What type of malware does this describe?
+- [ ] A rootkit
+- [ ] Ransomeware
+- [x] **A logic bomb**
+- [ ] Spyware
+
+10. What can occur during a ping of death (POD) attack? Check all that apply.
+- [x] **Remote code execution**
+- [ ] Baiting
+- [x] **A Denial-of-Service (DoS)**
+- [x] **A buffer overflow**
+
+11. What type of attack can a hacker perform that involves injecting malicious code into a website to hijack a session cookie?
+- [ ] Ping flood
+- [ ] A password attack
+- [ ] SQL injection
+- [x] **Cross-site Scripting (XSS)**
+
+12. If a hacker targets a vulnerable website by running commands that delete the website's data in its database, what type of attack did the hacker perform?
+- [ ] A dictionary attack
+- [x] **SQL injection**
+- [ ] A Denial-of-Service (DoS) attack
+- [ ] Cross-site Scripting (XSS)
+
+13. You receive a legitimate-looking email from a sender that you recognize asking you to click a funny link. But, once you do, malware installs on your computer. What is most likely the reason you got infected?
+- [ ] The sender's email password was cracked
+- [ ] The sender's email has been hacked
+- [x] **The sender's email was spoofed**
+- [ ] The sender's email password was used in a DNS Cache Poisoning attack

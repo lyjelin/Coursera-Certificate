@@ -202,6 +202,32 @@
 - [ ] True 
 - [x] False
 
+### Public Key or Asymmetric Encryption
+
+1. Which of the following do asymmetric cryptosystems provide? Check all that apply.
+- [x] **Authenticity**
+- [x] **Confidentiality**
+- [ ] Availability
+- [x] **Non-repudiation**
+
+2. What advantages do asymmetric algorithms have over symmetric ones? 
+- [ ] They have very fast performance.
+- [x] **They allow secure communication over insecure channels**
+- [ ] They're easier to implement
+- [ ] They're more secure
+
+3. What's a common applicatio for aymmetric algorithm
+- [ ] Secure password storage
+- [ ] Random number generation
+- [ ] Full disk encryption
+- [x] **Secure exchange**
+
+
+
+
+
+
+
 
 
 

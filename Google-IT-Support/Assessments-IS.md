@@ -222,14 +222,31 @@
 - [ ] Full disk encryption
 - [x] **Secure exchange**
 
+### Hashing
 
+1. How is hashing different from encryption?
+- [ ] Hashing is meant for large amounts of data, while encryption is meant for small amounts of data.
+- [ ] It's faster
+- [ ] It's less secure
+- [x] **Hashing operations are one-directional**
 
+2.What's a hash collision?
+- [ ] When two identical files generate different hash digests
+- [ ] When a hash digest is reversed to recover the original
+- [ ] When two different hashing algorithms produce the same hash
+- [x] **When two different files generate the same hash digest**
 
+3. How is a Message Integrity Check (MIC) different from a Message Authentication Code (MAC)?
+- [ ] They're the same thing
+- [ ] A MIC is more reliable then a MAC
+- [x] **A MIC only hashes the message, while a MAC incorporates a secret key**
+- [ ] A MAC requires a password, while a MIC does not
 
-
-
-
-
+4. How can you defend against brute-force password attacks? Check all that apply.
+- [x] **Run passwords through the hashing function multiple times**
+- [x] **Incorporate salts into password hashing**
+- [x] **Enforce the use of strong passwords**
+- [ ] Store passwords in a rainbow table
 
 
 

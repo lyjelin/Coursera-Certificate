@@ -268,6 +268,100 @@
 - [x] **Data binding and sealing**
 - [ ] Secure user authentication
 
+### Graded Assessments :
+
+1. Plaintext is the original message, while _____ is the encrypted message.
+- [x] **Ciphertext**
+- [ ] Digest
+- [ ] Algorithm
+- [ ] Cipher
+
+2. The specific function of converting plaintext into ciphertext is called a(n) ______.
+- [ ] Permutation
+- [ ] Data protection standard
+- [ ] Integrity check
+- [x] **Encryption algorithm**
+
+3. Studying how often letters and pairs of letters occur in a language is referred to as _______.
+- [ ] Codebreaking
+- [ ] Espionage
+- [ ] Cryptography
+- [x] **Frequency analysis**
+
+4. True or false: The same plaintext encrypted using the same algorithm and same encryption key would result in different ciphertext outputs.
+- [ ] True
+- [x] **False**
+
+5. The practice of hiding messages instead of encoding them is referred to as ______.
+- [ ] Encryption
+- [ ] Obfuscation
+- [ ] Hashing
+- [x] **Steganography**
+
+6. ROT13 and a Caesar cipher are examples of _______.
+- [ ] Asymmetric encryption
+- [ ] Steganography
+- [ ] Digiral signitures
+- [x] **Substitution ciphers**
+
+7. DES, RC4, and AES are examples of ______ encryption algorithms.
+- [ ] Asymmetric
+- [ ] Strong
+- [ ] Weak
+- [x] **Symmetric**
+
+8. What are the two components of an asymmetric encryption system, necessary for encryption and decryption operations? Check all that apply.
+- [x] **Public key**
+- [ ] Digest
+- [x] **Private key**
+- [ ] Random number generator
+
+9. To create a public key signature, you would use the ______ key.
+- [x] **Private**
+- [ ] Public
+- [ ] Decryption
+- [ ] Symmetric
+
+10. Using an asymmetric cryptosystem provides which of the following benefits? Check all that apply.
+- [ ] Hashing
+- [x] **Confidentiality**
+- [x] **Authenticity**
+- [x] **Non-repudiation**
+
+11. If two different files result in the same hash, this is referred to as a ________.
+- [ ] Coincidence
+- [x] **Hash collision**
+- [ ] Mistake
+- [ ] Key collision
+
+12. When authenticating a user's password, the password supplied by the user is authenticated by comparing the \____ of the password with the one stored on the system.
+- [x] **Hash**
+- [ ] Plaintext
+- [ ] Ciphertext
+- [ ] Length
+
+13. If a rainbow table is used instead of brute-forcing hashes, what is the resource trade-off?
+- [x] **Rainbow tables use less computational resources and more storage space**
+- [ ] Rainbow tables use less storage space and more RAM resources
+- [ ] Rainbow tables use less RAM resources and more computational resources
+- [ ] Rainbow tables use less storage space and more computational resources
+
+14. In a PKI system, what entity is responsible for issuing, storing, and signing certificates?
+- [ ] Government
+- [ ] Registration Authority
+- [x] **Certificate Authority**
+- [ ] Intermediary Authority
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -248,6 +248,27 @@
 - [x] **Enforce the use of strong passwords**
 - [ ] Store passwords in a rainbow table
 
+### Cryptography Applications
+
+1. What information does a digital certificate contain? Check all that apply.
+- [ ] Private key data
+- [x] **Digital signiture**
+- [x] **Identifying information of the certificate owner**
+- [x] **Public key data**
+
+2. Which type of encryption does SSL/TLS use?
+- [ ] Asymmetric encryption
+- [x] **Both**
+- [ ] Neither
+- [ ] Symmetric encryption
+
+3. What are some of the functions that a Trusted Platform Module can perform? Check all that apply.
+- [ ] Malware detection
+- [x] **Remote attestation**
+- [x] **Data binding and sealing**
+- [ ] Secure user authentication
+
+
 
 
 

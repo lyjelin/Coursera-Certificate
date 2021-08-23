@@ -94,6 +94,130 @@ Symmetric Cryptography Algorithms
 - `RC4` Rivest Cipher 4 : Symmetric Stream ciper that gained widespread adoption because of its simplicity and speed
 	- supports key sized from 40-bits to 2048-bits
 
+### Week 2
+
+#### Symmetric Encryption
+
+Cryptography
+- `Encryption` : act of taking a message, called plaintext, and applying an operation to it, called a cipher. So that you receive a garbled, unreadable message as the output, called ciphertext.
+- `Decryption` : reverse process of encryption, taking the garbled output and transforming it back into the readable plain text
+- Encryption algorithm : The underlying logic of process that's used to convert the plaintext into ciphertext
+- Security through obscurity
+- Cryptosystem : Collection of algorithms for key generation and encryption and decryption operations that comprise a cryptographic service should remain secure, even if everything about the system is known except for the key
+- Frequency analysis : practice of studying the frequency with which letters appear in ciphertext
+- Steganography : The practive of hiding information from observers, but not encoding it
+
+Symmetric Cryptography
+- Kerchhoff's principle : `Key` is the most important component of the cipher to keep secret
+- Symmetric-key algorithm : Same key is used to encrypt and decrypt the message
+- Substitution cipher : encryption mechanism that replaces parts of your plaintext with ciphertext
+- Stream cipher : Takes a stream of input and encrypts the stream one character or one digit at a time, outputting one encrypted character or digit at a time (one-to-one relationship)
+- Block ciper : The cipher takes data in, places it into a bucket or block of data that's a fixed size, then encodes that entire block as one unit
+
+Symmetric Cryptography Algorithms
+- Data Encryption Standards `DES`
+	- DES was adopted as a federal standard for encrypting and securing government data
+    - It is a symmetric block cipher that uses 64-bit key sizes and operates on blocks 64-bits in size; Though the key size is technically 64-bits in length, 8-bits are used only for parity checking, a simple form of error checking. This means that real world key length for DES is only 56-bits.
+- Federal Information Processing Standard `FIPS` 
+- Key Length : defines the max potential strength of the system
+- Advanced Encryption Standard `AES`
+	- Symmetric block cipher
+    - Uses 128-bit blocks and supports key lengths of 128-bit, 192-bit, or 256-bit
+    - Due to the large key size, brute-force attacks on AES are only theoretical right now, because the computing power required exceeds anything feasible today
+- Important thing to keep in mind when considering various encryption algorithms is speed and ease of implementation
+- `RC4` Rivest Cipher 4 : Symmetric Stream ciper that gained widespread adoption because of its simplicity and speed
+	- supports key sized from 40-bits to 2048-bits
+
+#### Public Key or Asymmetric Encryption
+
+Asymmetric Cryptography
+- Different key is used to encrypt and decrypt
+- Public key && Private Key
+- Allow secure communication over an untrusted channel
+- `MAC` : A MAC is a bit of information that allows authentication of a received message, ensuring that the message came from the alleged sender and not a third party masquerading as them
+	- HMAC : Keyed-hash message authentication code
+    - CMAC : Cipher-based message authentication codes
+    - CBC-MAC : Cipher block chaning message authentication codes
+
+Asymmetric Encryption Algorithms
+- Digital Signiture Algorithm `DSA` : covers key generation process along with the signing and verifying data using the key pairs
+- Diffie-Hellman (DH Key exchange algorithm)
+- Elliptic curve cryptography `ECC` : A public-key encryption system that uses the algebraic structure of elliptic curves over finite fields to generate secure keys  
+	- Elliptic curve is composed of a set of coordinates that fit in equation ($y^2 = x^3 + ax + b$), have horizontal symmetry
+- Both DH and DSA have elliptic curve variants, referred to as ECDH and ECDSA
+
+#### Hashing
+
+Hashing
+- A type of function or operation that takes in an arbitary data input and maps it to an output of fixed size, called a hash or digest 
+- You feed in any amount of data into a hash function and the resulting output will always be the same size, but the output should be unique to the input, such that two different inputs should never yield the same output
+- Hashing can also be used to **identify duplicate data sets in databases** or **archives to speed up searching of tables** or **to remove duplicate data to save space**
+- Cryptographic hashing is distinctly different from encryption because cryptographic hash functions should be one directional
+- The ideal cryptographic hash function should be deterministic, meaning that the same input calue should always return the same hash value; The function should be quick to compute and be efficient; It should be infeasible to reverse the function and recover the plain text from the hash digest
+- `Hash collision` : Two different inputs mapping to the same output
+
+Hashing Algorithms
+- MD5 : operates on a 512 bit blocks and generates 128 bit hash digests
+- SHA-1
+	- part of the secure hash algorithm suite of functions
+    - operates on a 512 bit blocks and generates 160 bit hash digests
+    - used in popular protocols like TLS/SSL, PGP SSH, and IPsec
+    - Also used in version control systems like `Git`, which uses hashes to identify revisions and ensure data integrity by detecting corruption or tampering
+- SHA-1 and SHA-2 were required for use in some US government cases for protection of sensitive information
+- `MIC` Message Integrity Check : Hash digest of the message in question -  MICs as protecting against accidental corruption or loss, but not protecting against tampering or malicious action
+- A successful brute force attack, against even the most secure system imaginable, is a function of attacker time and resources
+- Password salt : Additional randomized data that's added into the hashing function to generate a hash that's unique to the password and salt combination
+	- If large salt is used, the computational and storage requirements to generate useful rainbow tables become almost unfeasible
+
+
+#### Cryptographic Application
+
+Public Key Infrastructure `PKI`
+- PKI is a system that defines the creation, storage and distribution of digital certificates
+- Digital certificate : file that proves that an entity owns a certain public key; certificate contains information about the `public key`, the entity it belongs to and a digital signature from another party that has verified this information
+- The entity that's responsible for storing, issuing, and signing certificates is referred to as `CA`, or **Certificate Authority**
+- `RA`, or Registration Authority, is responsible for verifying the identities of any entities requesting certificates to be signed and stored with the CA.
+- A central repository is needed to securly store and index keys, and a certificate management system of some sort makes managing access to store certificates and issuance of certificates easier
+- i.e. SSL/TLS server certificate, self-signed certificate, SSL/TLS client certificate, code signing certificate, Root certificate
+- PKI is very much dependent on trust relationships between entities, and building a network or chain of trust -> This chain of trust starts from the root certificate authority
+- A certificate that has no authority as a CA is referred to an end-entity or leaf certificate
+- `X.509` standars is what defines the format of digital certificates  (defines `version` `serial number` `certificate signiture algorithm` `issuer name` `validity` `subject` `subject public key info` `certificate signiture algorithm` `certificate signiture value`
+
+Cryptography in Action
+- `HTTPS` 
+	- Secure version of HTTP
+    - Essentially encapsulating the HTTP traffic over an encrypted, secured channel utilizing SSL or TLS.
+- TLS is actually **independent of HTTPS**, and is actually a generic protocol to permit secure communications and authentication over a network; Also used to secure other communications aside from web browsing, like VoIP calls such as Skype or Hangouts, email, instant messaging, and even Wi-Fi network security
+	1. A secure communication line, which means data being transmitted is protected from potential eavesdroppers
+    2. The ability to authenticate both parties communicating, through typically only the server is authenticated by the client
+    3. The integrity of communications, meaning there are checks to ensure that messages aren't lost or altered in transit
+- TLS handshake
+- Session key : Shared symmetric encryption key used in TLS sessions to encrypt data being sent back and forth
+- Pretty Good Privacy `PGP` : An encryption application that allows authenticatio of data, along with privacy from third partied, relying upon asymmetric encryption to achieve this
+
+Securing Network Traffic 
+- VPN : sort of encrypted tunnel where all of user's remote system's network traffic would flow, transparently channeling the packets via the tunnel through the remote private network && Can be point-to-point
+- `IPsec` Internet Protocol Security : VPN protocol designed in conjunction with IPv6
+	- IPsec work by encrypting an IP packet and encapsulating the encrypted packet inside an IPsec packet.
+    - IPsec supports 2 modes of operations
+    	1. transpsernt mode : Only payload of the IP packet is encrypted, leaving IP headers untouched
+        2. tunnel mode : The entire IP packet, header payload and all, is encrypted and encapsulated inside a new IP packet with new headers
+- `L2TP` Layer 2 Tunneling Protocol : used to support VPN when data confidentiality is needed
+- Secure communication is established using `Encapsulating Security Payload`
+- Tunnel is provided by L2TP which permits the passing of unmodified packets from one network to another. Secure channel is provided by IPsec, which provides confidentiality, integrity, and authentication
+- OpenVPN, OpenSSL
+
+Cryptographic Hardware
+- Trusted Platform Module `TPM` : Hardware device that's typically integrated into the hardware of a computer, that's a dedicated crypto processor
+- TPM offers 
+	1. secure generation of keys
+    2. random number generation
+    3. reomte attestation : Remote attestation is the idea of a system authenticating its software and hardware configuration to a remote system -> This enables the remote system to determine the integrity of the remote system
+    4. data binding and sealing
+- TPM has unique secret RSA key burned into the hardware at the time of manufacture, which allows a TPM to perform things like hardware authentication
+- Full Disk Encryption
+
+
 
 
 

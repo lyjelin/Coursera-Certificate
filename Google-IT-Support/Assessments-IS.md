@@ -566,6 +566,33 @@
 - [ ] For protection against DDoS attacks
 - [ ] For protection against man-in-the-middle attacks
 
+### Wireless Security
+
+1. What are some of the weaknesses of the WEP scheme? Check all that apply. 
+- [ ] Its use of ASCII characters for passphrases 
+- [x] **Its poor key generation methods**
+- [x] **Its small IV pool size**
+- [x] **Its use of the RC4 stream cipher**
+
+2. What symmetric encryption algorithm does WPA2 use? 
+- [ ] DES
+- [ ] DSA
+- [ ] RSA
+- [x] **AES**
+
+3. How can you reduce the likelihood of WPS brute-force attacks? Check all that apply. 
+- [x] **Disable WPS**
+- [x] **Implement lockout periods for incorrect attemps**
+- [ ] Update firewall rules
+- [ ] Use a very long and complex passphrase
+
+4. Select the most secure WiFi security configuration from below: 
+- [ ] None
+- [ ] WPA enterprise
+- [ ] WEP 128
+- [ ] WPA personal
+- [ ] WPA2 personal
+- [x] **WPA2 enterptise**
 
 
 

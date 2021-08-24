@@ -520,3 +520,53 @@
 - [ ] APIs
 - [x] **Programs**
 
+## Week 4
+
+### Secure Network Software
+
+1. Why is normalizing log data important in a centralized logging setup? 
+- [ ] The data must be decrypted before sending it to the log server
+- [ ] It's difficult to analyze abnormal logs
+- [ ] Log normalizing detects potential attacks
+- [x] **Uniformly formatted logs are easier to store and analyze**
+
+2. What type of attacks does a flood guard protect against? Check all that apply. 
+- [ ] Malware infections
+- [x] **DDoS attacks**
+- [x] **SYN floods**
+- [ ] Man-in-the-middle attacks
+
+3. What does DHCP Snooping protect against? 
+- [ ] Data theft
+- [x] **Rogue DHCP server attacks**
+- [ ] DDoS attacks
+- [ ] Brute-force attacks
+
+4. What does Dynamic ARP Inspection protect against? 
+- [ ] Malware infections
+- [ ] Rogue DHCP server attacks
+- [ ] DDoS attacks
+- [x] **ARP poisoning attacks**
+
+5. What does IP Source Guard protect against?
+- [ ] Brute-force attacks
+- [ ] Rogue DHCP server attacks
+- [x] **IP spoofing attacks**
+- [ ] DDoS attacks
+
+6. What does EAP-TLS use for mutual authentication of both the server and the client? 
+- [ ] One-time passwords
+- [ ] Biometrics
+- [x] **Digital certificates**
+- [ ] Usernames and passwords
+
+7. Why is it recommended to use both network-based and host-based firewalls? Check all that apply. 
+- [x] **For protection against compromised hosts on the same network** 
+- [x] **For protection for mobile devices, like laptops**
+- [ ] For protection against DDoS attacks
+- [ ] For protection against man-in-the-middle attacks
+
+
+
+
+

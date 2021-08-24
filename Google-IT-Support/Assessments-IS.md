@@ -450,7 +450,73 @@
 - [ ] Accounting is reviewing records, while auditing is recording access and usage
 - [x] **Accounting is record access and usage, while auditing is reviewing these records**
 
+### Graded Assessments : AAA Security (Not Roadside Assistance)
+
+1. Authn is short for ________.
+- [ ] Authotization
+- [ ] Authoritarian
+- [ ] Authored
+- [x] **Authentication**
+
+2. Authorization is concerned with determining ______ to resources.
+- [x] **Access**
+- [ ] Eligibility
+- [ ] Validity
+- [ ] Identity
+
+3. In addition to the client being authenticated by the server, certificate authentication also provides ______.
+- [x] **Server authentication**
+- [ ] Authorization
+- [ ] Malware protection
+- [ ] Integrity
+
+4. The authentication server is to authentication as the ticket granting service is to _______.
+- [ ] Integrity
+- [x] **Authorization**
+- [ ] Verification
+- [ ] Identification
+
+5. Which of these passwords is the strongest for authenticating to a system?
+- [ ] P@55w0rd!
+- [x] **P@w04d!$$L0N6**
+- [ ] P@ssword!
+- [ ] Password!
+
+6. In a Certificate Authority (CA) infrastructure, why is a client certificate used?
+- [x] **To authenticate the client**
+- [ ] To authenticate the subordinate CA
+- [ ] To authenticate the server
+- [ ] To authenticate the CA
+
+7. A network admin wants to use a Remote Authentication Dial-In User Service (RADIUS) protocol to allow 5 user accounts to connect company laptops to an access point in the office. These are generic users and will not be updated often. Which of these internal sources would be appropriate to store these accounts in?
+- [ ] SQL database
+- [ ] LDAP
+- [ ] Active Directory
+- [x] **Flat file**
+
+8. Kerberos enforces strict _____ requirements, otherwise authentication will fail.
+- [x] **Time**
+- [ ] AES
+- [ ] NTP
+- [ ] Strong password
+
+9. Which of these are examples of a Single Sign-On (SSO) service? Check all that apply.
+- [x] **OpenID**
+- [ ] Tokens
+- [ ] Relying Parties
+- [ ] Kerberos
+> I didn't select all the correct answers
 
 
+10. A company is utilizing Google Business applications for the marketing department. These applications should be able to temporarily access a user's email account to send links for review. Why should the company use Open Authorization (OAuth) in this situation
+- [ ] Utilize a Key Distribution Center server
+- [x] **Compatibility with third party apps**
+- [ ] Administrater multiple network devices
+- [ ] Gain access through a wireless access point
 
+11. Access control entries can be created for what types of file system objects? Check all that apply.
+- [x] **Files**
+- [x] **Folders**
+- [ ] APIs
+- [x] **Programs**
 

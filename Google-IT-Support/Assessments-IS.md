@@ -352,7 +352,83 @@
 - [x] **Certificate Authority**
 - [ ] Intermediary Authority
 
+## Week 3
 
+### Authentication
+
+1. How is authentication different from authorization?
+- [ ] Authentication is identifying a resource; authorization is verifying access to an identity
+- [ ] They're the same thing
+- [ ] Authenticatio is verifying access to a resource; authorization is verifying an identity.
+- [x] **Authentication is verifying an identity; authorization is verifying access to a resource.**
+
+2. What are some characteristics of a strong passwrod? Check all that apply.
+- [ ] Contains dictionay words
+- [ ] Is used across accounts and systems
+- [x] **Includes numbers and special characters**
+- [x] **Is at least eight characters long**
+
+3. In a multi-factor authentication scheme, a password can be thought of as: 
+- [ ] somthing you are
+- [ ] something you have.
+- [ ] something you use.
+- [x] **something you know.**
+
+4. What are some drawbacks to using biometrics for authentication? Check all that apply. 
+- [x] **There are potential privacy concerns.**
+- [x] **Biometric authentication is difficult or impossible to change if compromised.**
+- [ ] Biometric authentication is much slower than alternatives.
+- [ ] Biometrics are easy to share.
+
+5. In what way are U2F tokens more secure than OTP generators? 
+- [ ] They're cheaper
+- [x] **They're resistant to phishing attacks.**
+- [ ] They can't be cloned.
+- [ ] They're password-protected.
+
+6. What elements of a certificate are inspected when a certificate is verified? Check all that apply. 
+- [x] **Trust of the signatory CA**
+- [ ] Certificate key size
+- [x] **"Not valid before" date**
+- [x] **"Not valid after" date**
+
+7. What is a CRL? 
+- [ ] Certified Recursive Listener
+- [x] **Certificate Revocation List**
+- [ ] Caramel Raspberry Lemon
+- [ ] Certificate Recording Language
+
+8. What are the names of similar entities that a Directory server organizes entities into?
+- [ ] Clusters
+- [x] **Organizational Units**
+- [ ] Trees
+- [ ] Groups
+
+9. True or false: The Network Access Server handles the actual authentication in a RADIUS scheme.
+- [ ] True
+- [x] **False**
+
+10. True or false: Clients authenticate directly against the RADIUS server.
+- [ ] True
+- [x] **False**
+
+11. What does a Kerberos authentication server issue to a client that successfully authenticates? 
+- [x] **A ticket granting ticket**
+- [ ] An encryption key
+- [ ] A master password
+- [ ] A digital certificate
+
+12. What advantages does single sign-on offer? Check all that appl
+- [ ] It provides encrypted authentication
+- [x] **It reduces the total number of credentials**
+- [x] **It reduces time spent authenticating**
+- [ ] It enforces multifactor authentication
+
+13. What does OpenID provide? 
+- [ ] Digital signiture
+- [x] **Authentication delegation**
+- [ ] Certificate signing
+- [ ] Cryptographic hashing
 
 
 

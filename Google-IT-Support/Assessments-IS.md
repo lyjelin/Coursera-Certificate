@@ -430,14 +430,25 @@
 - [ ] Certificate signing
 - [ ] Cryptographic hashing
 
+### Authorization and Accounting
 
+1. What role does authorization play? 
+- [x] **It determines whether or not an entity has access to a resource.**
+- [ ] It verifies an entity's identity. 
+- [ ] It verifies passwords. 
+- [ ] It provides strong encryption.
 
+2. What does OAuth provide? 
+- [ ] Confidentiality
+- [ ] Integrity
+- [x] **Access delegation**
+- [ ] Secure communications
 
-
-
-
-
-
+3. How is auditing related to accounting? 
+- [ ] They're not related
+- [ ] They're the same thing
+- [ ] Accounting is reviewing records, while auditing is recording access and usage
+- [x] **Accounting is record access and usage, while auditing is reviewing these records**
 
 
 

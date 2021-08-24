@@ -217,6 +217,91 @@ Cryptographic Hardware
 - TPM has unique secret RSA key burned into the hardware at the time of manufacture, which allows a TPM to perform things like hardware authentication
 - Full Disk Encryption
 
+### Week 3
+
+#### Authentication 
+
+Authentication Best Practices
+- Identification : Idea of sescribing an entity uniquely
+- Authentication `authn` : Proving you who claim to be
+- Security as Risk mitigation; It's impossible to complemetely eliminate the risk
+- Incorporating good password policies into an organization is key to ensuring that employees are securing their accounts with strong passwords
+
+Multifactor authentication
+-  A system where users are authenticated by presenting multiple pieces of information or objects
+	1. something you know
+    2. something you have
+    3. something you are
+- Physical token (i.e. OTP `One-Time Password`)
+
+Certificate 
+- Certificates are public keys that are signed by a certificate authority or CA as a sign of trust
+- In order to issue client certificates, an organization must setup and maintain CA infrastructure to issue and sign certificates
+- Part of certificate authentication also involves the client authenticating the server, giving us mutual authentication
+
+LDAP
+- `Lightweight Directory Access Protocol` is an open industry-standard protocol for accessing and maintaining directory services
+- DAP specification describes the data structure of the directory itself and defines functions for interacting with the service, like performing look ups and modifying data
+- The structure of an LDAP directory is a sort of tree layout and is optimized for retrieval of data more so than writing.
+- Directories can be hosted across lots of different LDAP servers to facilitate more rapid look ups, and are kept in sync through replication of the directory
+- LDAP uses a tree structure called a Data Information Tree, objects will have one parent and can have one or more children that belong to the parent object
+
+Remote Authentication Dial-In User Service `RADIUS`
+- Protocol that provides AAA services for users on a network
+- Used to manage access to internal networks, WiFi networks, email services and VPN services.
+- Originally designed to transport authentication information for remote dial up users, It's evolved to carry a wide variety of standard authentication protocols like EAP or Extensible Authentication Protocol
+
+Kerberos
+- Network authentication protocol that uses tickets to allow entities to prove their identity over potentially insecure channels to provide mutual authentication
+- It also uses symmetric encryption to protect protocol messages from eavesdropping and replay attacks
+
+TACACS+ `Terminal Access controller Access-Control System Plus`
+- It's a Cisco developed AAA protocol
+- **TACACS+ is primarily used for device administration, authentication, authorization, and accounting, as opposed to RADIUS, which is mostly used for network access AAA**
+
+Single Sign-On
+- Authentication concept that allows users to authenticate once to be granted access to a lot of different services and applications
+- SSO is accomplished by authenticating to a central authentication server, like an LDAP server -> This then provides a cookie, or token that can be used to get access to applications configured to use SSO
+- i.e. of SSO system is the openID, the centralized authentication system
+
+#### Authorization
+
+Authorization and Access Control Methods
+- `Authorization` pertains to describing what the user account has access to or doesn't have access to
+
+Access Control
+- `OAuth` : An open standard that allows users to grant third-party websites and applications access to their information without sharing account credentials.
+	- This can be thought of as a form of access delegation because access to the user's account is being delegated to the third party.
+    - This is accomplished by prompting the user to confirm that they agree to permit the third party access to certain information about their account
+- It's important that users pay attention to what third party is requesting access and what exactly they're granting access to. 
+- **OAuth permissions can be used in phishing style attacks to gain access to accounts without requiring credentials to be compromised** -> This works by sending phishing emails to potential victims that look like legitimate OAuth authorization requests, which ask the user to grant access to some aspects of their account through OAuth.
+
+Access Control List `ACL`
+- A way of defining permissions or authorizations for objects
+- A file system would have an ACL, which is a table or database with a list of entries specifying access rights for individuals or groups for various objects on the file system like folders, files or programs. -> `These individual access permissions per object are called Access Control Entries and they make up the ACL`
+- ACLs are also used extensively in network security, applying access controls to routers switches and firewalls
+- Network ACLs are used for restricting and controlling access to hoster services running on hosts within your network
+- Network ACLs can be defined for incoming and outgoing traffic.
+- Network ACLs can also be used to restrict external access to systems and limit outgoing traffic to enforce policies or to prevent unauthorized outbound data transfers.
+
+#### Accounting
+
+Tracking Usage and Access
+- Accounting : Keeping records of what resources and services your users access or what they did when they were using your systems
+	- Critical component of this is a`uditing`, which involves reviewing these records to ensure that nothing is out of the ordinary
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

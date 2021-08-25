@@ -944,4 +944,85 @@
 - [ ] Update your antivirus definitions
 - [ ] Change all account passwords
 
+### Graded Assessments : Creating a Company Culture for Security
+
+1. What's the first step in performing a security risk assessment?
+- [ ] Penetration testing
+- [ ] Vulnerability scanning
+- [x] **Threat modeling**
+- [ ] Logs analysis
+
+2. Which of the following should be incorporated into a reasonably secure password policy that balances security with usability? Check all that apply.
+- [x] **A length of at least 8 characters**
+- [ ] A requirement to use dictionary words
+- [x] **A complexity requirement of special characters and numbers**
+- [x] **A password expiration time 6-12 months**
+
+
+3. What are some behaviors you should encourage in order to build a security-conscious culture? Check all that apply.
+- [x] **Checking website URLs when authenticating**
+- [x] **Asking security-related questions**
+- [x] **Locking your screen**
+- [ ] Shaming people who haven't done a good job of ensuring your company's secret
+
+4. How can events be reconstructed after an incident?
+- [x] **By reviewing and analysing logs**
+- [ ] By interviewing the people involved
+- [ ] By replying security video footage
+- [ ] By doing analysis of forensic malware
+
+5. Security risk assessment starts with _____.
+- [ ] Payment processing
+- [x] **Threat modeling**
+- [ ] Attack impact
+- [ ] Outside attackers
+
+6. Your company wants to establish good privacy practices in the workplace so that employee and customer data is properly protected. Well-established and defined privacy policies are in place, but they also need to be enforced. What are some ways to enforce these privacy policies? Check all that apply.
+- [ ] Print customer information
+- [ ] VPN connection
+- [x] **Audit access logs**
+- [x] **Lease privilege**
+
+7. When employees need to access sensitive data, they should do all of the following EXCEPT what?
+- [ ] Provide justification
+- [ ] Time limit
+- [ ] Specify exact data needed
+- [x] **A second signature**
+
+8. A co-worker needs to share a sensitive file with you, but it is too large to send via an encrypted email. The co-worker works out of a remote office. You work at headquarters. Which of these options would most likely be approved by the company’s security policies? Check all that apply.
+- [x] **Upload to company secure cloud storage**
+- [ ] Upload to a personal OneDrive
+- [ ] Upload to a personal Google drive
+- [x] **Share directly via VPN**
+
+9. Management wants to build a culture where employees keep security in mind. Employees should be able to access information freely and provide feedback or suggestions without worry. Which of these are great ideas for this type of culture? Check all that apply.
+- [ ] Desktop monitoring software
+- [x] **Posters promoting good security behaviour**
+- [ ] Bring your own device
+- [x] **Designated mailing list**
+
+10. When you are working on your laptop in a public area, always _____ when you get up to use the restroom.
+- [ ] Ask permission to leave
+- [ ] Take your smartphone
+- [x] **Lock your screen**
+- [ ] Set up a VPN
+
+11. The incident response team found malware on several user workstations. Trying to remove the malware infection is becoming time consuming. There is important data on the workstations. Which of these actions will recover the workstations back to a malware-free state? Check all that apply.
+- [ ] Replace network cable
+- [x] **Restore file from backup**
+- [x] **Rebuild the machine**
+- [ ] Replace the hard drive
+
+
+
+
+
+
+
+
+
+
+
+
+
 

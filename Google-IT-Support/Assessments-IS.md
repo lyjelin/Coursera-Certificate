@@ -794,6 +794,31 @@
 - [x] **Performing data recovery**
 - [ ] Providing data integrity
 
+### Application Hardening
+
+1. Why is it important to keep software up-to-date? 
+- [x] **To address any security vulnerabilities discovered**
+- [ ] To ensure compatibility with other systems 
+- [ ] It's not important. It's just annoying. 
+- [ ] To ensure access to the latest features 
+
+2. What are some types of software that you'd want to have an explicit application policy for? Check all that apply.
+- [ ] Software development kits
+- [x] **Filesharing software**
+- [ ] Word processors 
+- [x] **Video games**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

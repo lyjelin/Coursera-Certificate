@@ -626,6 +626,109 @@
 - [ ] Encryption
 - [x] **Access to the traffic in question**
 
+### Week Four Practice Quiz
+
+1.What traffic would an implicit deny firewall rule block?
+- [ ] Nothing unless blocked
+- [ ] Inbound traffic
+- [ ] Outbound traffic
+- [x] **Everything not allowed**
+
+2.The process of converting log entry fields into a standard format is called _______.
+- [x] **Log normalization**
+- [ ] Log encryption
+- [ ] Log analysis
+- [ ] Log auditing
+
+3.A ______ can protect your network from DoS attacks.
+- [x] **Flood Guard**
+- [ ] DHCP 
+- [ ] Dynamic ARP inspection
+- [ ] IP Source Guard
+
+4.Using different VLANs for different network devices is an example of _______.
+- [x] **Network Seperation**
+- [ ] Implicit Denial
+- [ ] Remote Access
+- [ ] Network Encryption
+
+5.How do you protect against rogue DHCP server attacks?
+- [ ] Dynamic ARP Inspection
+- [ ] IP Source Guard
+- [x] **DHCP Snooping**
+- [ ] Flood Guard
+
+6.What does Dynamic ARP Inspection protect against?
+- [ ] Rogue DHAP Server attacks
+- [ ] DoS attacks
+- [ ] IP Spoofing attacks
+- [x] **ARP Man-in-the-middle attacks**
+
+7.What kind of attack does IP Source Guard protect against?
+- [ ] ARP Man-in-the-middle attacks
+- [x] **IP Spoofing attacks**
+- [ ] Rogue DHAP Server attacks
+- [ ] DoS attacks
+
+8.A reverse proxy is different from a proxy because a reverse proxy provides ______.
+- [ ] Privacy
+- [ ] DoS protection
+- [ ] Authentication
+- [x] **Remote Access**
+
+9.What underlying symmetric encryption cipher does WEP use?
+- [x] **RC4**
+- [ ] AES
+- [ ] DES
+- [ ] RSA
+
+10.What key lengths does WEP encryption support? Check all that apply. 
+- [ ] 40-bit
+- [x] **64-bit**
+- [x] **128-bit**
+- [ ] 256-bit
+
+11.What's the recommended way to protect a WPA2 network? Check all that apply.
+- [x] **Use a long, complex passphrase**
+- [x] **Use a unique SSID**
+- [ ] Hide the SSID
+- [ ] Use WEP64
+
+12.If you're connected to a switch and your NIC is in promiscuous mode, what traffic would you be able to capture? Check all that apply.
+- [ ] All traffic on the switch
+- [x] **Broadcast traffic**
+- [ ] No traffic
+- [x] **Traffic to and from you machind**
+
+13.What could you use to sniff traffic on a switch?
+- [ ] Promiscuous Mode
+- [ ] Network hub
+- [ ] DHCP Snooping
+- [x] **Port Mirroring**
+
+14.What does tcpdump do?
+- [ ] Handles packet injection
+- [ ] Generates DDoS attack traffic
+- [ ] Brute forces password databases
+- [x] **Perform packet capture and analysis**
+
+15.Compared to tcpdump, wireshark has a much wider range of supported _______.
+- [ ] Packet sizes
+- [x] **Protocols**
+- [ ] Packet types
+- [ ] Languages
+
+16.A Network Intrusion Detection System watches for potentially malicious traffic and _______ when it detects an attack
+- [ ] Blicks traffic
+- [ ] Shuts down
+- [ ] Disables network access
+- [x] **Triggers alerts**
+
+17.What does a Network Intrusion Prevention System do when it detects an attack?
+- [x] **It blocks the traffic**
+- [ ] It does nothing
+- [ ] It attacks back
+- [ ] It triggers an alert
 
 
 

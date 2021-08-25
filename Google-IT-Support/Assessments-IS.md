@@ -930,11 +930,18 @@
 - [ ] To avoid the need for security team
 - [ ] To punish employees with poor security practices
 
+### Incident Handling
 
+1. What's the first step in handling an incident? 
+- [ ] Contain the incident
+- [ ] Remove or eradicate of the incident
+- [x] **Detect the incident**
+- [ ] Recover from the incident
 
-
-
-
-
+2. How do you protect against a similar incident occurring again in the future? 
+- [x] **Conduct a post-incident analysis**
+- [ ] Crodd your fingers and hope for the best!
+- [ ] Update your antivirus definitions
+- [ ] Change all account passwords
 
 

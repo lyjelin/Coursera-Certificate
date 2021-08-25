@@ -916,10 +916,19 @@
 - [ ] Eavesdropping on communications
 - [ ] Denial-of-services attacks
 
+### Users
 
+1. You're interested in using the services of a vendor company. How would you assess their security capabilities? Check all that apply. 
+- [x] **Ask them to complete a questionnaire**
+- [x] **Ask them to provide any penetration testing or security assessment reports**
+- [ ] Request full access to their systems to perform an assessment
+- [ ] Assume that they're using industry-standard solutions
 
-
-
+2. What's the goal of mandatory IT security training for an organization? Check all that apply.
+- [x] **To build a culture that prioritizes security**
+- [x] **To educate employees on how to stay secure**
+- [ ] To avoid the need for security team
+- [ ] To punish employees with poor security practices
 
 
 

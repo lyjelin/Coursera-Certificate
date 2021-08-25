@@ -882,6 +882,47 @@
 - [ ] Full disk encryption (FDE)
 - [ ] Multiple Attack Vectors
 
+## Week 6
+
+### Risk in the Workplace
+
+1. What are some examples of security goals that you may have for an organization? Check all that apply. 
+- [x] **To prevent unauthorized access to customer credentials**
+- [ ] To deploy an intrusion Prevention System
+- [ ] To implement a strong password policy
+- [x] **To protect customer data from unauthorized access**
+
+2. Which of these would you consider hugh-value targets for a potential attackers? Check all that apply
+- [x] **Authentication databases**
+- [x] **Customer credit card information**
+- [ ] Networked printers
+- [ ] Logging server
+
+3. What's the purpose of vulnerability scanner?
+- [ ] It blocks malicious traffic from entering your network.
+- [x] **It detects vulnerabilities on your network and systems.**
+- [ ] It protects your network from malware. 
+- [ ] It fixes vulnerabilities on systems. 
+
+4. What are some restrictions that should apply to sensitive and confidential data? Check all that apply. 
+- [ ] It can be stored on removeble media
+- [ ] It can be accessed and stored on personal devices
+- [x] **It can be stored on encrypted media only**
+- [ ] it can be transferred via email
+
+5. What's a privacy policy designed to guard against? 
+- [x] **Misuse or abuse of sensitive data**
+- [ ] Attackers stealing customer data 
+- [ ] Eavesdropping on communications
+- [ ] Denial-of-services attacks
+
+
+
+
+
+
+
+
 
 
 

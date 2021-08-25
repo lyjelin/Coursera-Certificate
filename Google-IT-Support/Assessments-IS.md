@@ -594,6 +594,40 @@
 - [ ] WPA2 personal
 - [x] **WPA2 enterptise**
 
+### Network
+
+1. What does tcpdump do? Select all that apply. 
+- [ ] Encrypts your packets
+- [x] **Analyzes packets and provides a textual analysi**
+- [x] **Captures packets**
+- [ ] Generates packets
+
+2. What does wireshark do differently from tcpdump? Check all that apply. 
+- [ ] It can capture packets and analyze them. 
+- [x] **It has a graphical interface.**
+- [ ] It can write packet captures to a file. 
+- [x] **It understands more application-level protocols.**
+
+3. What factors should you consider when designing an IDS installation? Check all that apply. 
+- [x] **Traffic bandwidth**
+- [ ] OS types in use
+- [ ] Internet connection speed
+- [x] **Storage capacity**
+
+4. What is the difference between an Intrusion Detection System and an Intrusion Prevention System? 
+- [ ] They are the same thing
+- [ ] An IDS can detect malware activity on a network, but an IPS can't
+- [ ] An IDS can actively block attack traffic, while an IPS can only alert on detected attack traffic
+- [x] **An IDS can alert on detected attack traffic, but an IPS can actively block attack traffic**
+
+5. What factors would limit your ability to capture packets? Check all that apply.
+- [x] **Network interface not being in promiscuous or monitor mode**
+- [ ] Anti-malware software
+- [ ] Encryption
+- [x] **Access to the traffic in question**
+
+
+
 
 
 

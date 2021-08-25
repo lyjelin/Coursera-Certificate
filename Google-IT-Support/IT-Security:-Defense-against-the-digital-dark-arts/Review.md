@@ -290,6 +290,94 @@ Tracking Usage and Access
 - Accounting : Keeping records of what resources and services your users access or what they did when they were using your systems
 	- Critical component of this is a`uditing`, which involves reviewing these records to ensure that nothing is out of the ordinary
 
+### Week 4
+
+#### Secure Network Architecture
+
+Network Hardening Best Practices
+- Network Hardening : Processof securing a network by reducing its potential vulnerabilities through configuration changes and taking specific steps
+- General security principle : concept of disabling unnecessary extra services or restricting access to them
+- Implicit deny : Network security concept where anything not explicitly permitted or allowed should be denied
+- Important : **Monitoring & Analyzing traffic of network**
+- `Analyzing logs` : The practive of collecting logs from different network and sometimes client devices on the network, then performing an automated analysis on them
+	- Analysis of logs would involve looking for specific log messages of interests, like with firewall logs 
+- Logs analysis systems are configured using user-defined rules to match interesting or aypical log entries
+- Normalizing log data is an important step, since logs from different devices and systems may not be formatted in a common way
+- `Correlation analysis` : Process of taking log data from different systems and matching events across the systems
+- Detailed logging and analysis of logs would allow for detailed reconstruction of the events that led to the compromise
+- `Flood guards` : Provide protection against DoS (Denial of Service attacks)
+
+Network Software Hardening
+- Includes things like firewalls, proxies, and VPNs
+	- i.e. Firewalls : firewalls are critical to securing a network. They can be `deployed as dedicated network infrastructure devices`, which regulate the flow of traffic for a whole network. They can also be `host-based` as software that runs on a client system providing protection for that one host only.
+    	- A host-based firewall provides protection for mobile devices such as a laptop that could be used in an untrusted, potentially malicious environment like an airport Wi-Fi hotspot. 
+        - Host-based firewalls are also useful for protecting other hosts from being compromised, by corrupt device on the internal network. 
+	- i.e. VPNs are also recommended to provide secure access to internal resources for mobile or roaming users
+    	- VPNs are commonly used to provide secure remote access, and link two networks securely.
+	- Proxies can be really useful to protect client devices and their traffic
+    	- They also provide secure remote access without using a VPN
+        - A standard web proxy can be configured for client devices. This allows web traffic to be proxied through a proxy server that we control for lots of purposes. This configuration can be used for logging web requests of client devices. The devices can be used for logs, and traffic analysis, and forensic investigation. 
+        - The proxy server can be configured to block content that might be malicious, dangerous, or just against company policy. 
+        - A reverse proxy can be configured to allow secure remote access to web based services without requiring a VPN.
+
+#### Wireless Security
+
+WEP Encryption and Why You Shouldn't Use it
+- `WEP` Wired Equivalent Privacy
+- WEP was proven to be seriously bad at providing confidentiality or security for wireless networks
+- WEP use `RC4` symmetric stream cipher for encryption
+
+WPA/WPA2
+- Wi-Fi Alliance was WPA or Wi-Fi Protected Access : Replacement for WEP
+- `WPA` was designed as a short-term replacement that would be compatible with older WEP-enabled hardware with a simple firmware update
+- To address the shortcomings of WEP security, a new security protocol was introduced called TKIP or the Temporal Key Integrity Protocol.
+- TKIP implemented three new features that made it more secure than WEP. 
+	1. more secure key derivation method was used to more securely incorporate the IV into the per packet encryption key. 
+    2. sequence counter was implemented to prevent replay attacks by rejecting out of order packets. 
+    3. 64-bit MIC or Message Integrity Check was introduced to prevent forging, tampering, or corruption of packets
+- WPA2 is the best security for wireless networks currently available; It's based on the AES cipher finally getting away from the insecure RC4 cipher (The key derivation process didn't change from WPA, and the pre-shared key requirements are the same.)
+- 4-way handshake : Designed to allow an AP to confirm that the client has the correct pairwise master key, or pre-shared key in a WPA-PSK setup without disclosing the PMK
+	- PMK is `long live key` and might not change for a long time. So an encryption key is derived from the PMK that's used for actual encryption and decryption of traffic between a client and AP.
+    -  This key is called the Pairwise Transient Key or PTK. 
+    -  The PTK is generating using the PMK, AP nonce, Client nonce, AP MAC address, and Client MAC address. 
+- WPA supports : 
+	1. PIN entry authentication
+    2. NFC or USB
+    3. Push button authentication
+
+#### Network Monitoring
+
+Sniffing the Network
+- `Packet sniffing` (Packet capture) : The process of intercepting network packets in their entirety for analysis
+- Promiscuous Mode : A type of computer networking operational mode in which all network data packets can be accessed and viewed by all network adapters operating in this mode
+- Port mirroring : Allows the switch to take all packets from a specified port, port range, or the entire VLAN and mirror the packets to a specified switch port
+- Monitor mode : Allows us to scan across channels to see all wireless traffic being sent by APs and clients
+
+Wireshark and tcpdump
+- `Tcpdump` is a lightweight command-line based utility that you can use to capture and analyze packets.
+
+Intrusion Detection/Prevention Systems
+- IDS or IPS systems operate by monitoring network traffic and analyzing it
+- They look for matching behavior or characteristics that would indicate malicious traffic.
+- The difference between an IDS and an IPS system, is that IDS is only a detection system It won't take action to block or prevent an attack, when one is detected, it will only log an alert. But an IPS system can adjust firewall rules on the fly, to block or drop the malicious traffic when it's detected.
+- IDS and IPS system can either be host based or network based. 
+- In the case of a `Network Intrusion Detection System` or NIDS, the detection system would be deployed somewhere on a network, where it can **monitor traffic** for a network segment or sub net.
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 

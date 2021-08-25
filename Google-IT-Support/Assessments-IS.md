@@ -808,13 +808,79 @@
 - [ ] Word processors 
 - [x] **Video games**
 
+### Graded Assessments : Defense in Depth
 
+1. What does a host-based firewall protect against that a network-based one doesn't? Check all that apply.
+- [ ] Protection from XSS attacks
+- [ ] Protection from MITM attacks
+- [x] **Protection in untrusted networks**
+- [x] **Protection from compromised peers**
 
+2. Having detailed logging serves which of the following purposes? Check all that apply.
+- [ ] Vulnerability
+- [x] **Auditing**
+- [x] **Event reconstruction**
+- [ ] Data protection
 
+3. Securely storing a recovery or backup encryption key is referred to as _______.
+- [x] **Key escrow**
+- [ ] Key encryption
+- [ ] Key backup
+- [ ] Key obfuscation
 
+4. Which of these host-based firewall rules help to permit network access from a Virtual Private Network (VPN) subnet?
+- [x] **Access Control Lists (ACLs)**
+- [ ] Group Policy Objects (GPOs)
+- [ ] Active Directory
+- [ ] Secure Shell (SSH)
 
+5. A network security analyst received an alert about a potential malware threat on a user’s computer. What can the analyst review to get detailed information about this compromise? Check all that apply.
+- [x] **Logs**
+- [x] **Security information and Event Management (SIEM) system**
+- [ ] Binary whitelisting software
+- [ ] Full disk encryption (FDE)
 
+6. What can provide resilience against data theft, and can prevent an attacker from stealing confidential information from a hard drive that was stolen?
+- [ ] Key escrow
+- [ ] Software patch management
+- [ ] OS upgrades
+- [x] **Full disk encryption (FDE)
 
+7. A hacker exploited a bug in the software and triggered unintended behavior which led to the system being compromised by running vulnerable software. Which of these helps to fix these types of vulnerabilities?
+- [x] **Software patch management**
+- [ ] Implicit deny
+- [ ] Log analysis
+- [ ] Application policies
+
+8. How are attack vectors and attack surfaces related?
+- [ ] They're not actually related
+- [x] **An attack surface is the sum of all attack vectors**
+- [ ] An attack vector is the sum of all attack surfaces
+- [ ] They're the same thing
+
+9. What does full-disk encryption protect against? Check all that apply.
+- [ ] Malware
+- [x] **Data tampering**
+- [x] **Data theft**
+- [ ] Eavesdropping
+
+10. What is a class of vulnerabilities that are unknown before they are exploited?
+- [x] **0-days**
+- [ ] Attack Surfaces
+- [ ] Attack Vectors
+- [ ] ACLs
+
+11. If a user’s machine gets infected with malware within a trusted network, what can help protect computers inside the trusted network from the compromised one?
+- [ ] A network-based firewall
+- [x] **A host-based firewall**
+- [ ] The Domain Controller
+- [ ] Active Directory
+
+12. Which of these plays an important role in keeping attack traffic off your systems and helps to protect users? Check all that apply.
+- [x] **Antivirus software**
+- [x] **Antivirus measures**
+- [ ] Full disk encryption (FDE)
+- [ ] Multiple Attack Vectors
 
 
 

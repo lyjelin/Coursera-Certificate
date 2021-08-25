@@ -628,43 +628,43 @@
 
 ### Week Four Practice Quiz
 
-1.What traffic would an implicit deny firewall rule block?
+1. What traffic would an implicit deny firewall rule block?
 - [ ] Nothing unless blocked
 - [ ] Inbound traffic
 - [ ] Outbound traffic
 - [x] **Everything not allowed**
 
-2.The process of converting log entry fields into a standard format is called _______.
+2. The process of converting log entry fields into a standard format is called _______.
 - [x] **Log normalization**
 - [ ] Log encryption
 - [ ] Log analysis
 - [ ] Log auditing
-
+ 
 3.A ______ can protect your network from DoS attacks.
 - [x] **Flood Guard**
 - [ ] DHCP 
 - [ ] Dynamic ARP inspection
 - [ ] IP Source Guard
 
-4.Using different VLANs for different network devices is an example of _______.
+4. Using different VLANs for different network devices is an example of _______.
 - [x] **Network Seperation**
 - [ ] Implicit Denial
 - [ ] Remote Access
 - [ ] Network Encryption
 
-5.How do you protect against rogue DHCP server attacks?
+5. How do you protect against rogue DHCP server attacks?
 - [ ] Dynamic ARP Inspection
 - [ ] IP Source Guard
 - [x] **DHCP Snooping**
 - [ ] Flood Guard
 
-6.What does Dynamic ARP Inspection protect against?
+6. What does Dynamic ARP Inspection protect against?
 - [ ] Rogue DHAP Server attacks
 - [ ] DoS attacks
 - [ ] IP Spoofing attacks
 - [x] **ARP Man-in-the-middle attacks**
 
-7.What kind of attack does IP Source Guard protect against?
+7. What kind of attack does IP Source Guard protect against?
 - [ ] ARP Man-in-the-middle attacks
 - [x] **IP Spoofing attacks**
 - [ ] Rogue DHAP Server attacks
@@ -676,60 +676,123 @@
 - [ ] Authentication
 - [x] **Remote Access**
 
-9.What underlying symmetric encryption cipher does WEP use?
+9. What underlying symmetric encryption cipher does WEP use?
 - [x] **RC4**
 - [ ] AES
 - [ ] DES
 - [ ] RSA
 
-10.What key lengths does WEP encryption support? Check all that apply. 
+10. What key lengths does WEP encryption support? Check all that apply. 
 - [ ] 40-bit
 - [x] **64-bit**
 - [x] **128-bit**
 - [ ] 256-bit
 
-11.What's the recommended way to protect a WPA2 network? Check all that apply.
+11. What's the recommended way to protect a WPA2 network? Check all that apply.
 - [x] **Use a long, complex passphrase**
 - [x] **Use a unique SSID**
 - [ ] Hide the SSID
 - [ ] Use WEP64
 
-12.If you're connected to a switch and your NIC is in promiscuous mode, what traffic would you be able to capture? Check all that apply.
+12. If you're connected to a switch and your NIC is in promiscuous mode, what traffic would you be able to capture? Check all that apply.
 - [ ] All traffic on the switch
 - [x] **Broadcast traffic**
 - [ ] No traffic
 - [x] **Traffic to and from you machind**
 
-13.What could you use to sniff traffic on a switch?
+13. What could you use to sniff traffic on a switch?
 - [ ] Promiscuous Mode
 - [ ] Network hub
 - [ ] DHCP Snooping
 - [x] **Port Mirroring**
 
-14.What does tcpdump do?
+14. What does tcpdump do?
 - [ ] Handles packet injection
 - [ ] Generates DDoS attack traffic
 - [ ] Brute forces password databases
 - [x] **Perform packet capture and analysis**
 
-15.Compared to tcpdump, wireshark has a much wider range of supported _______.
+15. Compared to tcpdump, wireshark has a much wider range of supported _______.
 - [ ] Packet sizes
 - [x] **Protocols**
 - [ ] Packet types
 - [ ] Languages
 
-16.A Network Intrusion Detection System watches for potentially malicious traffic and _______ when it detects an attack
+16. A Network Intrusion Detection System watches for potentially malicious traffic and _______ when it detects an attack
 - [ ] Blicks traffic
 - [ ] Shuts down
 - [ ] Disables network access
 - [x] **Triggers alerts**
 
-17.What does a Network Intrusion Prevention System do when it detects an attack?
+17. What does a Network Intrusion Prevention System do when it detects an attack?
 - [x] **It blocks the traffic**
 - [ ] It does nothing
 - [ ] It attacks back
 - [ ] It triggers an alert
 
+## Week 5
+
+### System Hardening
+
+1. What is an attack vector?
+- [x] **A mechanism by which an attacker can interact with your network or systems**
+- [ ] The severity of the attack
+- [ ] The classification of attack type
+- [ ] The direction an attack is going in
+
+2. Disabling unnecessary components serves which purposes? Check all that apply.
+- [ ] Increasing performance
+- [ ] Making a system harder to use
+- [x] **Closing attack vectors**
+- [x] **Reducing the attack surface**
+
+3. What's an attack surface? 
+- [ ] The payload of the attack
+- [ ] The target or victim of an attack
+- [ ] The total scope of an attack
+- [x] **The combined sum of all attack vectors in a system or network**
+
+4. A good defense in depth strategy would involve deploying which firewalls? 
+- [ ] Network-based firewalls only 
+- [ ] No firewalls 
+- [x] **Both host-based and network-based firewalls**
+- [ ] Host-based firewalls only 
+
+5. Using a bastion host allows for which of the following? Select all that apply.
+- [x] **Applying more restrictive firewall rules** 
+- [ ] Running a wide variety of software securely
+- [x] **Enforcing stricter security measures** 
+- [x] **Having more detailed monitoring and logging** 
+
+6. What benefits does centralized logging provide? Check all that apply. 
+- [x] **It allows for easier logs analysis.** 
+- [ ] It prevents database theft. 
+- [x] **It helps secure logs from tampering or destruction.**
+- [ ] It blocks malware infections. 
+
+7. What are some of the shortcomings of antivirus software today? Check all that apply. 
+- [x] **It can't protect against unknown threats.** 
+- [ ] It only detects malware, but doesn't protect against it.
+- [ ] It's very expensive. 
+- [ ] It only protects against viruses. 
+
+8. How is binary whitelisting a better option than antivirus software? 
+- [ ] It's not better. It's actually terrible.
+- [ ] It has less performance impact. 
+- [ ] It's cheaper. 
+- [x] **It can block unknown or emerging threats.** 
+
+9. What does full-disk encryption protect against? Check all that apply. 
+- [x] **Data theft**
+- [ ] IP spoofing attacks
+- [ ] Malware infections
+- [x] **Tampering with system files**
+
+10. What's the purpose of escrowing a disk encryption key? 
+- [ ] Preventing data theft
+- [ ] Protecting against unauthorized access
+- [x] **Performing data recovery**
+- [ ] Providing data integrity
 
 
 

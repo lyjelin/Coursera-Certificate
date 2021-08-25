@@ -426,6 +426,83 @@ Application Policies
 - Helping your users accomplish tasks by recommending or supporting specific software makes for a more secure environment $\to$ It also helps users by giving them clear solutions to accomplish tasks
 - Extensions that require full access to web sites visited can be risky since the extension developer has the power to modify pages visited.
 
+### Week 6
+
+#### Risk in the Workplace
+
+Security Goals
+-  If your company handles credit card payments, then you have to follow the PCI DSS or Payment Card Industry Data Security Standard (depending on local laws)
+- PCI DSS : 
+	1. `Build and maintain a secure network and systems` : (i) install and maintain a firewall configuration to protect cardholder data (ii) to not use vendor supply default for system passwords and other security parameters
+    2. `Protect cardholder data` : (i) to protect stored cardholder data. (ii) to encrypt the transmission of cardholder data across open public networks
+    3. `Maintain a vulnerability management program` : (i) protect all systems against malware and regularly update antivirus software or programs (ii) to develop and maintain secure systems and applications
+    4. `Implement strong access control measures` : (i) restrict access to cardholder data by business need-to-know (ii) to identify and authenticate access to system components (iii) to restrict physical access to cardholder data
+    5. `Regularly monitor and test networks` : (i) to track and monitor all access to network resources and cardholder data (ii) to regularly test security systems and processes (_This refers to things like setting up and configuring intrusion detection systems and conducting vulnerability scans of the network_)
+    6. `Maintain an information security policy` : to maintain a policy that addresses information security for all personnel
+
+Measuring and Assessing Risk
+- Security is all about determining risks or exposure understanding the likelihood of attacks; and designing defenses around these risks to minimize the impact of an attack
+- Security risk assessment starts with threat modeling
+	1. identify likely threats to our systems 
+    2. then we assign them priorities that correspond to severity and probability
+    3. start to look at possible attack vectors that could be used to gain access to high value assets
+- High-value data usually includes account information, like usernames and passwords. Typically, any kind of user data is considered high value, especially if payment processing is involved
+- Another part of risk measurement is understanding what vulnerabilities are on your systems and network $\to$ One way to find these out is to perform regular vulnerabilities scanning
+- Vulnerability scanners are services that run on your system within your control that conduct periodic scans of configure networks
+- Found vulnerabilities are prioritized according to severity, and other categorization.
+- Vulnerability scanning can only detect known and disclose vulnerabilities and insecure configurations
+
+Privacy Policy
+- It is super important to protect it from unauthorized and inappropriate access
+- **Privacy policies oversee the access and use of sensitive dat**
+- Auditing data access logs is super important, it helps us ensure that sensitive data is only accessed by people who are authorized to access it, and that they use it for the right reasons
+- Policies will range from sensitive data handling to public communications. Data handling policies should cover the details of how different data is classified
+
+#### Users
+
+User Habits
+- You should never upload confidential information onto a third-party service that hasn't been evaluated by your company. 
+- It's important to make sure employees use new and unique passwords, and don't reuse them from other services
+
+Third-Party Security
+- When you contract services from a third party, you're trusting them to protect your data and any credentials involved
+- If they have sub par security, you're undermining your security defenses by potentially opening a new avenue of attack.
+- Users also need to manage the engagements in a controlled way $\to$ This involves conducting a vendor risk review or security assessment.
+- It's important to understand how well-protected your business partners are, before deciding to work with them
+- If possible, it is recommened to ask for a `third party security assessment report`
+- In the case of third party software, user might be able to conduct some basic vulnerability assessments and tests to ensure the product has some reasonable security
+
+Security Training
+- It's impossible to have good security practices at company if employees and users haven't received good trainings and resources
+- Helping others keep security in mind will help decrease the security burdens an I.T. Support Specialist has
+- Making employees retake the training every once a year or so, ensures that everyone's up-to-date on their training.
+
+#### Incident Handling
+
+Incident Reporting and Analysis
+- Proper incident handling is important to understanding what exactly happened, and how it happened and how to avoid it from happening again
+1. The very first step of handling an incident is to `detect it in the first place`
+2. The next step is to analyze it and determine the effects and scope of damage
+3. Once the scope of the incident is determined, the next step is containment (time-sensitive step)
+4. If an account was compromised, change the password immediately. If the owner is unable to change the password right away, then lock the account
+- Another part of incident analysis is determining `severity`, `impact`, and `recoverability` of the incident
+
+Incident Response and Recovery
+- Motivating factor : to prevent the spread of any infection or to remove remote access to the system
+- First, we determine the entry point to figure out how the attacker got in, or what vulnerability the malware exploited.
+- Systems need to be thoroughly tested to make sure proper functionality has been restored
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

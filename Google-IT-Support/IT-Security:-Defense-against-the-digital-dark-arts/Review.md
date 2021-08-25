@@ -363,7 +363,68 @@ Intrusion Detection/Prevention Systems
 - IDS and IPS system can either be host based or network based. 
 - In the case of a `Network Intrusion Detection System` or NIDS, the detection system would be deployed somewhere on a network, where it can **monitor traffic** for a network segment or sub net.
 
+### Week 5
 
+#### System Hardening
+
+Disabling Unnecessary Components
+- `Attack vecttor` : Method/Mechanism by which an attacker or malware gains access to anetwork or system
+- `Attack surface` : The sum of all the different attack vectors in a given system
+- The less complex something is, the less likely there will be undetected flaws
+- Another way to keep things simple is to reduce your software deployments
+- Defense in depth concept is all about risk mitigation and implementing layers of security.
+ 
+Host-Based Firewall
+- Protect individual hosts from being compromised when they're used in untrusted and potentially malicious environments
+- A host-based firewall plays a big part in reducing what's accessible to an outside attacker
+	- It provides flexibility while only permitting connections to selective services on a given host from specific networks or IP ranges.
+    - This ability to restrict connections from certain origins is usually used to implement a highly secure host to network.
+    - rom there, access to critical or sensitive systems or infrastructure is permitted. 
+    - These are called `Bastion hosts` or networks,
+- Good to keep the network that VPN clients connected to separate using both subnetting and VLANs. 
+	- This gives you more flexibility to enforce security on these VPN client
+- If the users of the system have administrator rights, then they have the ability to change firewall rules and configurations. 
+
+Logging and Auditing
+- Need visibility into the security systems in place to see what kind of traffic they're seeing
+- SIEMS `Security Information and Event Management System` : Centralized Log server
+- Logs analysis is normalization : Process of taking log data in different formats and converting it into a standardized format that's consistent with a defined log structure
+- What type of information should you be logging?
+	- i.e. Timestamp, event, error code, service or applicatio being logged, user or system account associated with the event, device involved in the event
+- Once logs are centralized and standardized, you can write automated alerting based on rules.
+
+Antimalware Protection 
+- Lots of unprotected systems would be compromised in a matter of minutes if directly connected to the internet without any safeguards or protections in place.
+- `Antivirus software` is **signature based**. This means that it has a database of signatures that identify known malware like the unique file hash of a malicious binary or the file associated with an infection
+- `Antivirus software` will monitor and analyze things like new files being created or being modified on the system in order to watch for any behavior that matches a known malware signature. 
+
+Disk Encryption
+- `Full-disk Encryption` FDE : Works by automatically converting data on a hard drive into a form that cannot be understood by anyone who doesn't have the key to "undo" the conversation (FDE is key - Systems with their entire hard drives encrypted are resilient against data theft)
+- Since disk encryption not only provides confidentiality but also integrity. This means that an attacker with physical access to a system can't replace system files with malicious ones or install malware.
+- In order for a system to boot if it has an FDE setup, there are some critical files that must be accessible. They need to be available before the primary disk can be unlocked and the boot process can continue $\to$ Because of this, all FDE setups have an unencrypted partition on the disk, which holds these critical boot files (i.e. kernel, bootloader)
+- Secure boot is confifured with what's called a platform key (= public key corresponding to the private kwy used to sign the boot file)
+- Password-protecting the key works by requiring the user entry passphrase to unlock the encryption key.
+- When you implement a full-disk encryption solution at scale, it's super important to think about how to handle cases where passwords are forgotten. This is another convenience tradeoff when using FDE.
+- `Key escrow` : Allows encryption key to be securely stored for later retrieval by an authorized party.
+- Home directory or file-based encryption only guarantees confidentiality and integrity of files protected by encryption.
+
+#### Application Hardening
+
+Software Patch Management
+- Software updates don't just improve software products by adding new features and improving performance and stability, they also address security vulnerabilities
+- The best protection is to have a good system and policy in place for your company -> The system should be checking for, distributing and verifying software updates for software deployment.
+- Patching isn't just necessary for software, but also operating systems and firmware that run on infrastructure devices. 
+- Operating system vendors usually push security related patches pretty quickly when an issue is discovered.
+- But, for embedded devices like networking equipment or printers, this might not be typical.
+- Critical infrastructure devices should be approached carefully when you apply updates. There's always the risk that a software update will introduce a new bug that may affect the functionality of a device, or if the update process itself would go wrong and cause an outage.
+
+Application Policies
+- Application Policies : (1) Defined boundaries of what applications are permitted or not (2) Help educate folks on how to use software more securely
+- Recommended to use lastest version
+- It's generally a good idea to disallow risky classes of software by policy. Things like file sharing software and piracy-related software tend to be closely associated with malware infections.
+- Understanding what your users need to do their jobs will help shape your approach to software policies and guidelines.
+- Helping your users accomplish tasks by recommending or supporting specific software makes for a more secure environment $\to$ It also helps users by giving them clear solutions to accomplish tasks
+- Extensions that require full access to web sites visited can be risky since the extension developer has the power to modify pages visited.
 
 
 
